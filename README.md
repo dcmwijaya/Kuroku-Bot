@@ -19,23 +19,15 @@ Bot ini dibangun dengan Google App Scripts yang menggunakan bahasa pemrograman J
 | Bagian | Tools yang digunakan |
 | --- | --- |
 | Vendor | Google Apps Script |
-| Back-End | MySQL |
 | Language | Javascript |
 
 <br>
 <br>
 
 ## Kemampuan Bot
-1. 
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
+1. Dapat memberikan notifikasi kepada pemilik bot terkait aktivitas pengakses bot.
+2. Terdapat pilihan menu inline keyboard dan custom keyboard.
+3. Dapat menyapa user.
 
 <br>
 <br>
@@ -51,11 +43,30 @@ MHczUHrzvBLV1HsUn5XkOIfvg_do21SJR
 ```
 
 5. Add -> Pilih versi tertinggi, saat ditulis ini sudah versi 9. Mungkin ke depan akan nambah lagi versinya, karena ada update -> Save.
-6. Masukkan api telegram bot anda.
+6. Masukkan api telegram bot anda. Contohnya sebagai berikut :
+
+```bash
+// masukkan token bot mu di sini
+var token = '1264610746:AAF3HuLDWCPKIGcinRY5Uf-qTpsWWw_jN0K';
+```
+
 7. Publikasikan -> Terapkan sebagai aplikasi web.
 8. Pastikan project version new, lalu untuk Exucute the app as pilih sesuai email anda, kemudian Who has access to the app pilih Anyone, even anonymous.
 9. Setelah itu pilih Review permissions -> pilih email anda -> lanjutkan -> buka bot project anda (tidak aman) -> izinkan.
-10. Copy link web app URL -> Pastekan link tersebut pada function Web app url.
+10. Copy link web app URL -> Pastekan link tersebut pada function Web app url. Contohnya sebagai berikut :
+
+```bash
+// Isi dengan web App URL yang di dapat saat deploy
+var webAppUrl = "https://api.telegram.org/bot1164101112:AA1BC1DI/setwebhook?url=https://script.google.com/macros/s/AKfycbyKodePanjang/exec";
+
+function setWebHook() {
+  var result = tg.request('setWebhook', {
+    url: webAppUrl
+  });
+  Logger.log(result);
+}
+```
+
 11. Selanjutnya pilih fungsi setWebhook -> klik icon Run -> Berhasil jika status bot hingga berbunyi "Webhook is already set".
 12. Selesai! Silahkan dicoba ^^
 
