@@ -86,7 +86,7 @@ function prosesPesan(update) {
       }
        
       if ( menu == /^♻️ About$/i.exec(msg.text) || menu == /^\/about$/i.exec(msg.text) ){
-        let pesan = "🤖 Bot ini dibuat oleh <a href='https://t.me/USERNAME_TELEGRAM'>NAMA_ANDA</a>\nSebagai Pemenuhan Tugas Mata Kuliah Pemrograman Web Pararel B";
+        let pesan = "🤖 Bot ini dibuat oleh <a href='https://t.me/USERNAME_TELEGRAM'>NAMA_ANDA</a>\nSebagai Pemenuhan Tugas Kuliah";
         let pesan_lanjutan = "Selain anda dapat klik menu, anda juga dapat menggantikan perintah klik dengan :\n1. Start = /start\n2. TestBot = /testbot\n3. Time = /time\n4. About = /about";
       
         let inkeyboard = 
