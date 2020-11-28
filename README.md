@@ -10,7 +10,7 @@ Bot ini dibangun dengan Google App Scripts yang menggunakan bahasa pemrograman J
 <br>
 
 ## Dokumentasi
-<img src="" />
+<img src="https://user-images.githubusercontent.com/54527592/100519999-0ad9c500-31ce-11eb-84f6-8d5450464a8b.jpg" />
 
 <br>
 <br>
