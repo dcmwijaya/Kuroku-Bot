@@ -67,7 +67,7 @@ function setWebHook() {
 }
 ```
 
-11. Selanjutnya pilih fungsi setWebhook -> klik icon Run -> Berhasil jika status bot hingga berbunyi "Webhook is already set".
+11. Selanjutnya pilih fungsi setWebhook -> klik icon Run -> Berhasil (jika status bot menjadi "Webhook is already set").
 12. Selesai! Silahkan dicoba ^^
 
 <br>
