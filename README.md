@@ -1,9 +1,9 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/BOT-TELEGRAM-JS-WELCOME-WITH-NOTIFICATION)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Bot-Telegram-JS-Sederhana)
 ![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=flat&logo=javascript&logoColor=%23F7DF1E)
 
-# BOT-JS-WELCOME-WITH-NOTIFICATION
+# Bot-Telegram-JS-Sederhana
 Bot ini dibangun dengan Google App Scripts yang menggunakan bahasa pemrograman Javascript
 
 <br>
