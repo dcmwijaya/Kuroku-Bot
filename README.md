@@ -9,7 +9,7 @@ This Telegram-based ChatBot was built through the Google App Scripts platform. T
 
 <br>
 [SEDANG UPDATE REPO, HARAP SABAR.....]
-<br>
+<br><br><br>
 
 ## Features / Framework / Tools
 | Part | Description |
@@ -21,9 +21,11 @@ This Telegram-based ChatBot was built through the Google App Scripts platform. T
 <br>
 
 ## Bot Capabilities
-1. Dapat memberikan notifikasi kepada pemilik bot terkait aktivitas pengakses bot.
-2. Terdapat pilihan menu inline keyboard dan custom keyboard.
-3. Dapat menyapa user.
+1. There are menu options that can be accessed by clicking or typing.
+
+2. Another ability of this bot is that it can provide notification to the bot owner that someone has accessed a certain menu, so that the bot owner can monitor the movements that occur directly.
+
+3. There is problem control in the system, if the message does not match the command it will be redirected to the /help command.
 
 <br>
 
@@ -66,11 +68,11 @@ function setWebHook() {
 12. Selesai! Silahkan dicoba ^^
 
 <br>
-<br>
 
 ## Reminder
-- Perhatikan cara penulisan sintaks javascript yang baik dan benar karena sangat berpengaruh pada saat pengembangan bot.
-- Pastikan PC/Laptop anda telah terkoneksi dengan internet
+• Pay attention to writing good and correct syntax in JavaScript because it greatly affects the bot that is developed.
+
+• Make sure your PC/Laptop is connected to the internet.
 
 <br>
 
@@ -79,9 +81,16 @@ function setWebHook() {
 
 <br>
 
-# Application Demonstration
-<a href="http://t.me/KUROKU_bot">@KUROKU_bot</a>
+## Demonstration of Application
+Via Telegram: <a href="http://t.me/KUROKU_bot">@KUROKU</a>
 
 <br>
 
 ## LICENSE
+MIT License - Copyright (c) 2020 - Devan Cakra Mudra Wijaya
+
+Permission is hereby granted without charge to any person obtaining a copy of this software and the software-related documentation files to deal in them without restriction, including without limitation the right to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons receiving the Software to be furnished therewith on the following terms:
+
+The above copyright notice and this permission notice must accompany all copies or substantial portions of the Software.
+
+IN ANY EVENT, THE AUTHOR OR COPYRIGHT HOLDER HEREIN RETAINS FULL OWNERSHIP RIGHTS. THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, THEREFORE IF ANY DAMAGE, LOSS, OR OTHERWISE ARISES FROM THE USE OR OTHER DEALINGS IN THE SOFTWARE, THE AUTHOR OR COPYRIGHT HOLDER SHALL NOT BE LIABLE, AS THE USE OF THE SOFTWARE IS NOT COMPELLED AT ALL, SO THE RISK IS YOUR OWN.
