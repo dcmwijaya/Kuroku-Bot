@@ -65,7 +65,7 @@ This Telegram-based ChatBot was built through the ``` Google App Scripts ``` pla
 
 12. Click ``` Run ```.
 
-    Will be considered successful if the ``` execution log ``` reads: ``` Info {"ok":true, "result":true, "description": "Webhook was set"} ```.
+    Will be considered successful if the ``` execution log ``` reads: ``` Info {ok=true, description=Webhook is already set, result=true} ```.
    
 13. Enjoy [Done].
 
