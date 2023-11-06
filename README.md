@@ -4,9 +4,11 @@
 ![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=flat&logo=javascript&logoColor=%23F7DF1E)
 
 # Bot-Telegram-JS-Sederhana
-Bot ini dibangun dengan Google App Scripts yang menggunakan bahasa pemrograman Javascript
+<strong>UPN Veteran Jatim Website Programming Assignment</strong><br>
+This Telegram-based ChatBot was built through the Google App Scripts platform. The programming language in the development of this system uses Javascript.
 
 <br>
+[SEDANG UPDATE REPO, HARAP SABAR.....]
 <br>
 
 ## Dokumentasi
