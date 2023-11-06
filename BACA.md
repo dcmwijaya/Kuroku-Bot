@@ -14,7 +14,7 @@ ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts `
 | --- | --- |
 | Fitur | Keyboard Balasan, Keyboard Sebaris, Pengendalian Masalah, Aktivitas Catatan Pengguna |
 | Platform | Google Apps Script |
-| Kerangka Kerja | Lumpia |
+| Kerangka Kerja | Lumpia.js |
 | Kode | JavaScript |
 
 <br>
