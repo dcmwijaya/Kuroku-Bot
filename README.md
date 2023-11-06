@@ -64,12 +64,6 @@ This Telegram-based ChatBot was built through the Google App Scripts platform. T
     ```bash
     // Isi dengan web App URL yang di dapat saat deploy
     var webAppUrl = "https://api.telegram.org/bot1164101112:AA1BC1DI/setwebhook?url=https://script.google.com/macros/s/AKfycbyKodePanjang/exec";
-
-    function setWebHook() {
-        var result = tg.request('setWebhook', {
-        url: webAppUrl
-      }); Logger.log(result);
-    }
     ```
 
 13. Klik ``` Jalankan ``` (Catatan: akan dianggap berhasil jika ``` log eksekusi ``` bertuliskan ``` Webhook is already set ```).
