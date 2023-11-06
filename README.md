@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Bot-Telegram-JS-Sederhana)
 ![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=flat&logo=javascript&logoColor=%23F7DF1E)
 
-# Bot-Telegram-JS-Sederhana
+# Bot-Telegram-Berbasis-JavaScript
 <strong>UPN Veteran Jatim Website Programming Assignment</strong><br>
 This Telegram-based ChatBot was built through the Google App Scripts platform. The programming language in the development of this system uses Javascript.
 
@@ -11,31 +11,24 @@ This Telegram-based ChatBot was built through the Google App Scripts platform. T
 [SEDANG UPDATE REPO, HARAP SABAR.....]
 <br>
 
-## Dokumentasi
-<img src="https://user-images.githubusercontent.com/54527592/100519999-0ad9c500-31ce-11eb-84f6-8d5450464a8b.jpg" />
-
-<br>
-<br>
-
-## Tools / Framework / Other
-| Bagian | Tools yang digunakan |
+## Features / Framework / Tools
+| Part | Description |
 | --- | --- |
-| Vendor | Google Apps Script |
-| Language | Javascript |
+| Features | Reply Keyboard, Inline Keyboard, Error Handling, User Log Activity |
+| Platform | Google Apps Script |
+| Code | JavaScript |
 
 <br>
-<br>
 
-## Kemampuan Bot
+## Bot Capabilities
 1. Dapat memberikan notifikasi kepada pemilik bot terkait aktivitas pengakses bot.
 2. Terdapat pilihan menu inline keyboard dan custom keyboard.
 3. Dapat menyapa user.
 
 <br>
-<br>
 
-## Langkah2 Pembuatan Bot
-1. Fork / Download repositori ini.
+## Running
+1. Download repositori ini.
 2. Buka telegram anda -> @BotFather -> ketik "/newbot" -> isikan nama bot anda (terserah anda/bebas) -> isikan username bot anda (terserah anda/bebas)_bot.
 3. Buat project di Google apps script -> copas seluruh isi file index.gs yang telah didownload dari repositori ini -> save project -> beri nama project.
 4. Masukkan ID Pustaka :
@@ -75,6 +68,20 @@ function setWebHook() {
 <br>
 <br>
 
-## Catatan
+## Reminder
 - Perhatikan cara penulisan sintaks javascript yang baik dan benar karena sangat berpengaruh pada saat pengembangan bot.
 - Pastikan PC/Laptop anda telah terkoneksi dengan internet
+
+<br>
+
+## Highlights
+<img src="https://user-images.githubusercontent.com/54527592/100519999-0ad9c500-31ce-11eb-84f6-8d5450464a8b.jpg" />
+
+<br>
+
+# Application Demonstration
+<a href="http://t.me/KUROKU_bot">@KUROKU_bot</a>
+
+<br>
+
+## LICENSE
