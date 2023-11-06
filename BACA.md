@@ -65,7 +65,7 @@ ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts `
 
 12. Klik ``` Jalankan ```.
 
-    Akan dianggap berhasil jika ``` log eksekusi ``` bertuliskan: ``` Info {"ok":true, "result":true, "description":"Webhook was set"} ```.
+    Akan dianggap berhasil jika ``` log eksekusi ``` bertuliskan: ``` Info {ok=true, description=Webhook is already set, result=true} ```.
    
 13. Selamat menikmati [Selesai].
 
