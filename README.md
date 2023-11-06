@@ -31,41 +31,48 @@ This Telegram-based ChatBot was built through the Google App Scripts platform. T
 
 ## Running
 1. Download repositori ini.
-2. Buka telegram anda -> @BotFather -> ketik "/newbot" -> isikan nama bot anda (terserah anda/bebas) -> isikan username bot anda (terserah anda/bebas)_bot.
-3. Buat project di Google apps script -> copas seluruh isi file index.gs yang telah didownload dari repositori ini -> save project -> beri nama project.
+
+2. Buat project di Google apps script.
+  
+3. Salin & tempelkan seluruh isi file index.js yang telah didownload tadi -> tambahan file baru dengan nama ``` index ``` -> save project.
+
 4. Masukkan ID Pustaka :
+   ```bash
+   MHczUHrzvBLV1HsUn5XkOIfvg_do21SJR
+   ```
 
-```bash
-MHczUHrzvBLV1HsUn5XkOIfvg_do21SJR
-```
+5. Tambahkan -> Selalu pilih versi pustaka yang tertinggi -> Save.
+  
+6. Masukkan ``` api bot telegram ``` seperti berikut ini :
+   ```bash
+   // masukkan token bot mu di sini
+   var token = '1264610746:AAF3HuLDWCPKIGcinRY5Uf-qTpsWWw_jN0K';
+   ```
 
-5. Add -> Pilih versi tertinggi, saat ditulis ini sudah versi 9. Mungkin ke depan akan nambah lagi versinya, karena ada update -> Save.
-6. Masukkan api telegram bot anda. Contohnya sebagai berikut :
+7. Klik ``` Terapkan ``` -> ``` Deployment baru ``` -> Pilih jenis: ``` Aplikasi Web ```.
+   
+8. Isi ``` Deskripsi ``` lalu Akses pilih bagian ``` siapa saja dapat mengakses ``` -> Terapkan.
+   
+9. Review permissions -> pilih email anda -> lanjutkan -> buka bot project anda (tidak aman) -> izinkan.
 
-```bash
-// masukkan token bot mu di sini
-var token = '1264610746:AAF3HuLDWCPKIGcinRY5Uf-qTpsWWw_jN0K';
-```
+10. Klik ``` Terapkan ``` -> ``` Kelola Deployment ``` -> Pilih Deployment yang sudah anda buat tadi lalu atur versinya menjadi yang terbaru (catatan: hanya sekali saja).
+    
+11. Salin link web app URL -> Pastekan link tersebut pada bagian ``` var webAppUrl ``` yang ada di Code.gs seperti berikut :
 
-7. Publikasikan -> Terapkan sebagai aplikasi web.
-8. Pastikan project version new, lalu untuk Exucute the app as pilih sesuai email anda, kemudian Who has access to the app pilih Anyone, even anonymous.
-9. Setelah itu pilih Review permissions -> pilih email anda -> lanjutkan -> buka bot project anda (tidak aman) -> izinkan.
-10. Copy link web app URL -> Pastekan link tersebut pada function Web app url. Contohnya sebagai berikut :
+    ```bash
+    // Isi dengan web App URL yang di dapat saat deploy
+    var webAppUrl = "https://api.telegram.org/bot1164101112:AA1BC1DI/setwebhook?url=https://script.google.com/macros/s/AKfycbyKodePanjang/exec";
 
-```bash
-// Isi dengan web App URL yang di dapat saat deploy
-var webAppUrl = "https://api.telegram.org/bot1164101112:AA1BC1DI/setwebhook?url=https://script.google.com/macros/s/AKfycbyKodePanjang/exec";
+    function setWebHook() {
+        var result = tg.request('setWebhook', {
+        url: webAppUrl
+      }); Logger.log(result);
+    }
+    ```
 
-function setWebHook() {
-  var result = tg.request('setWebhook', {
-    url: webAppUrl
-  });
-  Logger.log(result);
-}
-```
-
-11. Selanjutnya pilih fungsi setWebhook -> klik icon Run -> Berhasil (jika status bot menjadi "Webhook is already set").
-12. Selesai! Silahkan dicoba ^^
+12. Klik ``` Jalankan ``` -> Berhasil (jika status bot menjadi "Webhook is already set").
+   
+13. Enjoy [Done].
 
 <br>
 
