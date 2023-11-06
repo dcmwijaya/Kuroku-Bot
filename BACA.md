@@ -45,7 +45,7 @@ ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts `
   
 7. Tempelkan ``` Api bot token telegram ``` yang telah anda peroleh dari ``` @BotFather ``` seperti berikut ini :
    ```bash
-   // masukkan token bot mu di sini
+   // Masukkan token bot mu di sini
    var token = '1264610746:AAF3HuLDWCPKIGcinRY5Uf-qTpsWWw_jN0K';
    ```
 
