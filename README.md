@@ -14,6 +14,7 @@ This Telegram-based ChatBot was built through the ``` Google App Scripts ``` pla
 | --- | --- |
 | Features | Reply Keyboard, Inline Keyboard, Error Handling, User Log Activity |
 | Platform | Google Apps Script |
+| Framework | Lumpia |
 | Code | JavaScript |
 
 <br>
@@ -38,7 +39,7 @@ This Telegram-based ChatBot was built through the ``` Google App Scripts ``` pla
 
 5. Enter the ``` Library ID ``` in the ``` Library ``` section:
    ```bash
-   MHczUHrzvBLV1HsUn5XkOIfvg_do21SJR
+   1Yo6vQRwjG5Gl9jeEF0g2tBTUa0XN5MyT4G_HeDpRr9DvabxhRcSdhPNj
    ```
 
 6. Add ``` the library ``` -> Always select ``` the highest version of the library ``` -> Save.
@@ -88,6 +89,11 @@ This Telegram-based ChatBot was built through the ``` Google App Scripts ``` pla
 
 ## Demonstration of Application
 Via Telegram: <a href="http://t.me/KUROKU_bot">@KUROKU</a>
+
+<br>
+
+## Disclaimer
+This application has been created by including third-party sources. Third parties here are service providers, whose services are in the form of libraries, frameworks, and others. I thank you very much for the service. It has proven to be very helpful and implementable.
 
 <br>
 
