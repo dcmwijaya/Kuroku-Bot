@@ -77,6 +77,8 @@ ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts `
 
 • Pastikan PC/Laptop Anda terhubung ke internet.
 
+• Jika Anda menemukan bahwa proyek tidak bekerja seperti yang Anda harapkan, maka ada dua kemungkinan: kesalahan ada pada ``` sintaks ``` atau kesalahan ada pada ``` library yang sudah kadaluarsa ```, sehingga hal ini dapat menyebabkan Anda harus mencari jalan keluar lain.
+
 <br>
 
 ## Sorotan
