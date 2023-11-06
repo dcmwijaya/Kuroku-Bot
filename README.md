@@ -77,6 +77,8 @@ This Telegram-based ChatBot was built through the ``` Google App Scripts ``` pla
 
 • Make sure your PC/Laptop is connected to the internet.
 
+• If you find that the project is not working as you expected, then there are two possibilities: either the error is in the ```syntax`` or the error is in an ```outdated library``, so this may cause you to have to find another way out.
+
 <br>
 
 ## Highlights
