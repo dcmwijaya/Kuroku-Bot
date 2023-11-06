@@ -8,6 +8,8 @@
 ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts ```. Bahasa pemrograman dalam pengembangan sistem ini menggunakan ``` Javascript ```.
 
 <br>
+~ REPO INI SEDANG DIPERBAIKI, UNTUK KODE MASIH BELUM BISA BEKERJA DENGAN BAIK ~
+<br><br><br>
 
 ## Fitur / Kerangka Kerja / Peralatan
 | Bagian | Deskripsi |
