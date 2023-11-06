@@ -56,20 +56,18 @@ This Telegram-based ChatBot was built through the ``` Google App Scripts ``` pla
    
 10. Review permissions -> Select ``` your email ``` -> Continue -> Open ``` your bot project (not secure) ``` -> Allow.
 
-11. Click ``` Apply ``` -> ``` Manage Deployment ``` -> Select ``` the Deployment you created earlier ``` then set the version to the latest ``` (note: only once) ```.
-    
-12. Copy the ``` web app URL link ``` -> Paste the link into the ``` var webAppUrl ``` section in ``` Code.gs ``` as follows:
+11. Copy the ``` web app URL link ``` -> Paste the link into the ``` var webAppUrl ``` section in ``` Code.gs ``` as follows:
 
     ```bash
     // Fill in the web App URL that was obtained during deployment
     var webAppUrl = "https://api.telegram.org/bot1164101112:AA1BC1DI/setwebhook?url=https://script.google.com/macros/s/AKfycbyKodePanjang/exec";
     ```
 
-13. Click ``` Run ```.
+12. Click ``` Run ```.
 
     Will be considered successful if the ``` execution log ``` reads: ``` Info {"ok":true, "result":true, "description": "Webhook was set"} ```.
    
-14. Enjoy [Done].
+13. Enjoy [Done].
 
 <br>
 
