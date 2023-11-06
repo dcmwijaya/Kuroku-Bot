@@ -70,7 +70,7 @@ This Telegram-based ChatBot was built through the Google App Scripts platform. T
     }
     ```
 
-12. Klik ``` Jalankan ``` -> Berhasil (jika status bot menjadi "Webhook is already set").
+12. Klik ``` Jalankan ``` (Catatan: akan dianggap berhasil jika log eksekusi bertuliskan ``` Webhook is already set ```).
    
 13. Enjoy [Done].
 
