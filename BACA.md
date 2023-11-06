@@ -14,6 +14,7 @@ ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts `
 | --- | --- |
 | Fitur | Keyboard Balasan, Keyboard Sebaris, Pengendalian Masalah, Aktivitas Catatan Pengguna |
 | Platform | Google Apps Script |
+| Kerangka Kerja | Lumpia |
 | Kode | JavaScript |
 
 <br>
@@ -38,7 +39,7 @@ ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts `
 
 5. Masukkan ``` ID Pustaka ``` di bagian ``` Library ``` :
    ```bash
-   MHczUHrzvBLV1HsUn5XkOIfvg_do21SJR
+   1Yo6vQRwjG5Gl9jeEF0g2tBTUa0XN5MyT4G_HeDpRr9DvabxhRcSdhPNj
    ```
 
 6. Tambahkan ``` pustaka tersebut ``` -> Selalu pilih ``` versi pustaka yang tertinggi ``` -> Simpan.
@@ -55,20 +56,18 @@ ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts `
    
 10. Meninjau izin -> Pilih ``` email anda ``` -> Lanjutkan -> Buka ``` proyek bot anda (tidak aman) ``` -> Izinkan.
 
-11. Klik ``` Terapkan ``` -> ``` Kelola Deployment ``` -> Pilih ``` Deployment yang sudah anda buat tadi ``` lalu atur versinya menjadi yang terbaru ``` (catatan: hanya sekali saja) ```.
-    
-12. Salin ``` link web app URL ``` -> Tempelkan link tersebut pada bagian ``` var webAppUrl ``` yang ada di ``` Code.gs ``` seperti berikut :
+11. Salin ``` link web app URL ``` -> Tempelkan link tersebut pada bagian ``` var webAppUrl ``` yang ada di ``` Code.gs ``` seperti berikut :
 
     ```bash
     // Isi dengan web App URL yang di dapat saat deploy
     var webAppUrl = "https://api.telegram.org/bot1164101112:AA1BC1DI/setwebhook?url=https://script.google.com/macros/s/AKfycbyKodePanjang/exec";
     ```
 
-13. Klik ``` Jalankan ```.
+12. Klik ``` Jalankan ```.
 
     Akan dianggap berhasil jika ``` log eksekusi ``` bertuliskan: ``` Info {"ok":true, "result":true, "description":"Webhook was set"} ```.
    
-14. Selamat menikmati [Selesai].
+13. Selamat menikmati [Selesai].
 
 <br>
 
@@ -88,6 +87,11 @@ ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts `
 
 ## Demonstrasi Aplikasi
 Via Telegram: <a href="http://t.me/KUROKU_bot">@KUROKU</a>
+
+<br>
+
+## Penafian
+Aplikasi ini dibuat dengan menyertakan sumber-sumber dari pihak ketiga. Pihak ketiga di sini adalah penyedia layanan, yang layanannya berupa library, framework, dan lain-lain. Saya ucapkan terima kasih banyak atas layanannya. Telah terbukti sangat membantu dan dapat diimplementasikan.
 
 <br>
 
