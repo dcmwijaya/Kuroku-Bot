@@ -5,7 +5,7 @@
 
 # Bot-Telegram-Berbasis-JavaScript
 <strong>UPN Veteran Jatim Website Programming Assignment</strong><br>
-This Telegram-based ChatBot was built through the ``` Google App Scripts platform ```. The programming language in the development of this system uses ``` Javascript ```.
+This Telegram-based ChatBot was built through the ``` Google App Scripts ``` platform. The programming language in the development of this system uses ``` Javascript ```.
 
 <br>
 
