@@ -57,7 +57,7 @@ This Telegram-based ChatBot was built through the Google App Scripts platform. T
    
 10. Meninjau izin -> Pilih ``` email anda ``` -> Lanjutkan -> Buka ``` proyek bot anda (tidak aman) ``` -> Izinkan.
 
-11. Klik ``` Terapkan ``` -> ``` Kelola Deployment ``` -> Pilih ``` Deployment yang sudah anda buat ``` tadi lalu atur versinya menjadi yang terbaru ``` (catatan: hanya sekali saja) ```.
+11. Klik ``` Terapkan ``` -> ``` Kelola Deployment ``` -> Pilih ``` Deployment yang sudah anda buat tadi ``` lalu atur versinya menjadi yang terbaru ``` (catatan: hanya sekali saja) ```.
     
 12. Salin ``` link web app URL ``` -> Tempelkan link tersebut pada bagian ``` var webAppUrl ``` yang ada di ``` Code.gs ``` seperti berikut :
 
