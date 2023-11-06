@@ -30,34 +30,36 @@ This Telegram-based ChatBot was built through the Google App Scripts platform. T
 <br>
 
 ## Running
-1. Download repositori ini.
+1. Unduh repositori ini.
 
-2. Buat project di Google apps script.
+2. Buat proyek baru terlebih dahulu di platform: ``` Google apps script ```.
   
-3. Salin & tempelkan seluruh isi file index.js yang telah didownload tadi -> tambahan file baru dengan nama ``` index ``` -> save project.
+3. Tambahan ``` file baru ``` pada platform ``` Google apps script ``` dengan nama ``` index ``` -> save project.
+  
+4. Buka direktori ``` Bot-Telegram-Berbasis-JavaScript ``` lalu ekstrak -> buka file ``` index.js ``` -> salin & tempelkan seluruh isinya ke ``` index.gs ``` yang ada pada platform ``` Google apps script ```.
 
-4. Masukkan ID Pustaka :
+5. Masukkan ``` ID Pustaka ``` di bagian ``` Library ``` :
    ```bash
    MHczUHrzvBLV1HsUn5XkOIfvg_do21SJR
    ```
 
-5. Tambahkan -> Selalu pilih versi pustaka yang tertinggi -> Save.
+6. Tambahkan -> Selalu pilih ``` versi pustaka yang tertinggi ``` -> Save.
   
-6. Masukkan ``` api bot telegram ``` seperti berikut ini :
+7. Masukkan ``` Api bot token telegram ``` seperti berikut ini :
    ```bash
    // masukkan token bot mu di sini
    var token = '1264610746:AAF3HuLDWCPKIGcinRY5Uf-qTpsWWw_jN0K';
    ```
 
-7. Klik ``` Terapkan ``` -> ``` Deployment baru ``` -> Pilih jenis: ``` Aplikasi Web ```.
+8. Klik ``` Terapkan ``` -> ``` Deployment baru ``` -> Pilih jenis: ``` Aplikasi Web ```.
    
-8. Isi ``` Deskripsi ``` lalu Akses pilih bagian ``` siapa saja dapat mengakses ``` -> Terapkan.
+9. Isi ``` Deskripsi ``` lalu Akses pilih bagian ``` siapa saja dapat mengakses ``` -> Terapkan.
    
-9. Review permissions -> pilih email anda -> lanjutkan -> buka bot project anda (tidak aman) -> izinkan.
+10. Review permissions -> pilih email anda -> lanjutkan -> buka bot project anda (tidak aman) -> izinkan.
 
-10. Klik ``` Terapkan ``` -> ``` Kelola Deployment ``` -> Pilih Deployment yang sudah anda buat tadi lalu atur versinya menjadi yang terbaru (catatan: hanya sekali saja).
+11. Klik ``` Terapkan ``` -> ``` Kelola Deployment ``` -> Pilih Deployment yang sudah anda buat tadi lalu atur versinya menjadi yang terbaru (catatan: hanya sekali saja).
     
-11. Salin link web app URL -> Pastekan link tersebut pada bagian ``` var webAppUrl ``` yang ada di Code.gs seperti berikut :
+12. Salin link web app URL -> Pastekan link tersebut pada bagian ``` var webAppUrl ``` yang ada di Code.gs seperti berikut :
 
     ```bash
     // Isi dengan web App URL yang di dapat saat deploy
@@ -70,9 +72,9 @@ This Telegram-based ChatBot was built through the Google App Scripts platform. T
     }
     ```
 
-12. Klik ``` Jalankan ``` (Catatan: akan dianggap berhasil jika log eksekusi bertuliskan ``` Webhook is already set ```).
+13. Klik ``` Jalankan ``` (Catatan: akan dianggap berhasil jika log eksekusi bertuliskan ``` Webhook is already set ```).
    
-13. Enjoy [Done].
+14. Enjoy [Done].
 
 <br>
 
