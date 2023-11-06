@@ -14,7 +14,7 @@ This Telegram-based ChatBot was built through the ``` Google App Scripts ``` pla
 | --- | --- |
 | Features | Reply Keyboard, Inline Keyboard, Error Handling, User Log Activity |
 | Platform | Google Apps Script |
-| Framework | Lumpia |
+| Framework | Lumpia.js |
 | Code | JavaScript |
 
 <br>
