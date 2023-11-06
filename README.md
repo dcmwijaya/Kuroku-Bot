@@ -45,7 +45,7 @@ This Telegram-based ChatBot was built through the ``` Google App Scripts ``` pla
   
 7. Paste the ``` Fire bot token telegram ``` that you have obtained from ``` @BotFather ``` as follows :
    ```bash
-   // insert your bot token here
+   // Insert your bot token here
    var token = '1264610746:AAF3HuLDWCPKIGcinRY5Uf-qTpsWWw_jN0K';
    ```
 
@@ -60,7 +60,7 @@ This Telegram-based ChatBot was built through the ``` Google App Scripts ``` pla
 12. Copy the ``` web app URL link ``` -> Paste the link into the ``` var webAppUrl ``` section in ``` Code.gs ``` as follows:
 
     ```bash
-    // Isi dengan web App URL yang di dapat saat deploy
+    // Fill in the web App URL that was obtained during deployment
     var webAppUrl = "https://api.telegram.org/bot1164101112:AA1BC1DI/setwebhook?url=https://script.google.com/macros/s/AKfycbyKodePanjang/exec";
     ```
 
