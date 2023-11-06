@@ -18,7 +18,7 @@ bot.start(ctx => {
   }
 
   // Notifikasi pengakses
-  let admin_id = ctx.message_id; admin_id = "1000064401";
+  let admin_id = ctx.message_id; admin_id = "CHAT ID ANDA";
   let pvmsg = "⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : "+ctx.from.id+"\n👤 Nama : "+nama;
   pvmsg += "\n🚹 Username : @"+user+"\n📁 Akses menu : "+menu;
 
