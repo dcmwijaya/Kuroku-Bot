@@ -5,7 +5,7 @@
 
 # Bot-Telegram-Berbasis-JavaScript
 <strong>Tugas Pemrograman Website UPN Veteran Jatim</strong><br>
-ChatBot berbasis Telegram ini dibangun melalui platform Google App Scripts. Bahasa pemrograman dalam pengembangan sistem ini menggunakan Javascript.
+ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts ```. Bahasa pemrograman dalam pengembangan sistem ini menggunakan ``` Javascript ```.
 
 <br>
 
