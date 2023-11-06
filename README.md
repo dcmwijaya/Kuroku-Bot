@@ -53,7 +53,7 @@ This Telegram-based ChatBot was built through the Google App Scripts platform. T
 
 8. Klik ``` Terapkan ``` -> ``` Deployment baru ``` -> Pilih jenis: ``` Aplikasi Web ```.
    
-9. Isi ``` Deskripsi ``` -> Akses pilih bagian: ``` siapa saja dapat mengakses ``` -> Terapkan.
+9. Isi ``` Deskripsi ``` -> Pada bagian ``` Akses ```, silahkan pilih bagian: ``` siapa saja dapat mengakses ``` -> Terapkan.
    
 10. Meninjau izin -> Pilih ``` email anda ``` -> Lanjutkan -> Buka ``` proyek bot anda (tidak aman) ``` -> Izinkan.
 
