@@ -8,8 +8,6 @@
 This Telegram-based ChatBot was built through the ``` Google App Scripts ``` platform. The programming language in the development of this system uses ``` Javascript ```.
 
 <br>
-~ THIS REPO IS BEING FIXED, THE CODE IS STILL NOT WORKING PROPERLY ~
-<br><br><br>
 
 ## Features / Framework / Tools
 | Part | Description |
