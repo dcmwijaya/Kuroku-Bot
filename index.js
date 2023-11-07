@@ -17,7 +17,7 @@ let keyboard = [];
 const button = lumpia.button;
 const markup = lumpia.markup;
 
-// Penunjukkan waktu
+// Pewaktuan
 let date = new Date();
 let tanggal = Utilities.formatDate(date, "Asia/Jakarta", "yyyy/MM/dd");
 let waktu_lengkap = Utilities.formatDate(date, "Asia/Jakarta", "yyyy/MM/dd , HH:mm:ss");
@@ -149,10 +149,51 @@ bot.action('me_pakan', ctx => {
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+ctx.from.id+'\n👤 Nama : '+nama;
   pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+"\n⏰ Date : "+waktu_lengkap+".";
 
+  // Output yang dikirim oleh bot
   ctx.replyWithHTML('Ini balasan menu Pakan.') & bot.telegram.sendMessage(admin_bot, pvmsg);
 });
 
 // Respon habitat
+bot.action('me_habitat', (ctx, next) => { 
+  // Habitat: ikan
+  let msg = "--------------------------------------------------------------\n🌱 Habitat: 🐟 Ikan (Pisces)\n--------------------------------------------------------------\n\nIkan dapat ditemukan hampir di semua perairan yang berukuran besar baik air tawar, air payau, maupun air asin (laut). Pada habitat aslinya, ikan dapat hidup bervariasi, mulai dari yang dekat permukaan hingga beberapa ribu meter di bawah permukaan.";
+
+  // Output yang dikirim oleh bot
+  ctx.replyWithHTML(msg);
+
+  // Fungsi untuk meneruskan chat pada action berikutnya
+  next();
+});
+bot.action('me_habitat', (ctx, next) => { 
+  // Habitat: burung
+  let msg = "--------------------------------------------------------------\n🌱 Habitat: 🕊️ Burung (Aves)\n--------------------------------------------------------------\n\nHabitat burung terbentang mulai dari tepi pantai hingga ke puncak gunung. Burung yang memiliki habitat khusus di tepi pantai tidak dapat hidup di pegunungan dan sebaliknya. Namun ada pula spesies burung-burung umum yang dapat dijumpai di beberapa habitat.";
+
+  // Output yang dikirim oleh bot
+  ctx.replyWithHTML(msg);
+
+  // Fungsi untuk meneruskan chat pada action berikutnya
+  next();
+});
+bot.action('me_habitat', (ctx, next) => { 
+  // Habitat: mamalia
+  let msg = "--------------------------------------------------------------\n🌱 Habitat: 🐇 Mamalia\n--------------------------------------------------------------\n\nMamalia hidup pada habitat yang berbeda dan tersebar luas baik di gurun, Arktik, lautan, hutan, gunung, tundra, padang rumput, dan sabana. Mamalia pun lazim dibandingkan dengan reptil dan amfibi karena habitatnya tersebut.";
+
+  // Output yang dikirim oleh bot
+  ctx.replyWithHTML(msg);
+
+  // Fungsi untuk meneruskan chat pada action berikutnya
+  next();
+});
+bot.action('me_habitat', (ctx, next) => { 
+  // Habitat: reptil
+  let msg = "--------------------------------------------------------------\n🌱 Habitat: 🐊 Reptil\n--------------------------------------------------------------\n\nKeberadaan reptil bisa ditemukan hampir di seluruh bagian dunia, kecuali benua Antartika. Reptil hidup di daratan, daerah perairan, atau bisa juga keduanya. Karena itu, persebaran reptil bisa ditemukan di berbagai tempat yang umum dikunjungi ataupun tidak bisa dikunjung manusia.";
+
+  // Output yang dikirim oleh bot
+  ctx.replyWithHTML(msg);
+
+  // Fungsi untuk meneruskan chat pada action berikutnya
+  next();
+});
 bot.action('me_habitat', ctx => { 
   // Menu
   let menu = 'habitat';
@@ -168,7 +209,11 @@ bot.action('me_habitat', ctx => {
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+ctx.from.id+'\n👤 Nama : '+nama;
   pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+"\n⏰ Date : "+waktu_lengkap+".";
 
-  ctx.replyWithHTML('Ini balasan menu Habitat.') & bot.telegram.sendMessage(admin_bot, pvmsg);
+  // Habitat: amfibi
+  let msg = "--------------------------------------------------------------\n🌱 Habitat: 🐸 Amfibi\n--------------------------------------------------------------\n\nHabitat utama amfibi adalah hutan primer, hutan sekunder, hutan rawa, sungai besar, sungai sedang, anak sungai, kolam dan danau. Umumnya amfibi dijumpai pada malam hari atau pada musim penghujan.";
+
+  // Output yang dikirim oleh bot
+  ctx.replyWithHTML(msg) & bot.telegram.sendMessage(admin_bot, pvmsg);
 });
 
 // Respon kesehatan
@@ -187,6 +232,7 @@ bot.action('me_kesehatan', ctx => {
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+ctx.from.id+'\n👤 Nama : '+nama;
   pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+"\n⏰ Date : "+waktu_lengkap+".";
 
+  // Output yang dikirim oleh bot
   ctx.replyWithHTML('Ini balasan menu Kesehatan.') & bot.telegram.sendMessage(admin_bot, pvmsg);
 });
 
@@ -317,5 +363,5 @@ bot.action('sub_amfibi', ctx => {
 });
 
 
-// Aksi Bot Telegram pada Sub Menu: Pakan
+// Aksi Bot Telegram pada Sub Menu: Kesehatan
 // <<<<<<<<<< ------------------------------------------------------------------------------ >>>>>>>>>>
