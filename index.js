@@ -12,6 +12,9 @@ const admin_bot = 'CHAT ID TELEGRAM ANDA';
 // Username bot
 const username_bot = 'kuroku_bot';
 
+// Mode production: OFF
+lumpia.verbose = false;
+
 // Inline keyboard
 let keyboard = [];
 const button = lumpia.button;
@@ -19,8 +22,8 @@ const markup = lumpia.markup;
 
 // Pewaktuan
 let date = new Date();
-let tanggal = Utilities.formatDate(date, "Asia/Jakarta", "yyyy/MM/dd");
-let waktu_lengkap = Utilities.formatDate(date, "Asia/Jakarta", "yyyy/MM/dd , HH:mm:ss");
+let tanggal = Utilities.formatDate(date, 'Asia/Jakarta', 'yyyy/MM/dd');
+let waktu_lengkap = Utilities.formatDate(date, 'Asia/Jakarta', 'yyyy/MM/dd , HH:mm:ss');
 
 
 
@@ -54,12 +57,12 @@ bot.start(ctx => {
   let nama = ctx.from.first_name;
   let user = ctx.from.username;
   if (ctx.from.last_name) { 
-    nama += " " + ctx.from.last_name;
+    nama += ' ' + ctx.from.last_name;
   }
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+ctx.from.id+'\n👤 Nama : '+nama;
-  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+"\n⏰ Date : "+waktu_lengkap+".";
+  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+'\n⏰ Date : '+waktu_lengkap+'.';
 
   // Ucapan selamat datang
   let msg = '📢 Selamat datang di <b>'+username_bot+'</b>. Bot ini dapat memberikan edukasi praktis terkait bagaimana cara merawat hewan peliharaan.\n\n👋 Hai <b>'+nama+'</b>...\n🚹 Username = @'+user;
@@ -101,12 +104,12 @@ bot.action('me_jenis', ctx => {
   let nama = ctx.from.first_name;
   let user = ctx.from.username;
   if (ctx.from.last_name) { 
-    nama += " " + ctx.from.last_name;
+    nama += ' ' + ctx.from.last_name;
   }
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+ctx.from.id+'\n👤 Nama : '+nama;
-  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+"\n⏰ Date : "+waktu_lengkap+".";
+  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+'\n⏰ Date : '+waktu_lengkap+'.';
 
   // Keterangan jenis
   let msg = '🐈 Jenis Hewan\n\nJenis hewan yang dimaksud ini berdasarkan pada kelas.\n\nSilakan pilih jenis hewan peliharaan anda dibawah ini untuk mendapatkan informasi lebih lanjut ⬇️⬇️⬇️⬇️⬇️';
@@ -134,7 +137,59 @@ bot.action('me_jenis', ctx => {
 });
 
 // Respon pakan
-bot.action('me_pakan', ctx => { 
+bot.action('me_pakan', (ctx, next) => {
+  // Pakan: ikan
+  let msg = 'Test1';
+
+  // Photo Pakan
+  let photo = 'https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/cc9c2042-ff15-42b7-8156-d77a8d8d225e';
+
+  // Output yang dikirim oleh bot
+  ctx.replyWithHTML(msg) & replyWithPhoto(photo);
+
+  // Fungsi untuk meneruskan chat pada action berikutnya
+  next();
+});
+bot.action('me_pakan', (ctx, next) => { 
+  // Pakan: burung
+  let msg = 'Test2';
+
+  // Photo Pakan
+  let photo = '';
+
+  // Output yang dikirim oleh bot
+  ctx.replyWithHTML(msg, photo);
+
+  // Fungsi untuk meneruskan chat pada action berikutnya
+  next();
+});
+bot.action('me_pakan', (ctx, next) => { 
+  // Pakan: mamalia
+  let msg = 'Test3';
+
+  // Photo Pakan
+  let photo = '';
+
+  // Output yang dikirim oleh bot
+  ctx.replyWithHTML(msg, photo);
+
+  // Fungsi untuk meneruskan chat pada action berikutnya
+  next();
+});
+bot.action('me_pakan', (ctx, next) => { 
+  // Pakan: reptil
+  let msg = 'Test4';
+
+  // Photo Pakan
+  let photo = '';
+
+  // Output yang dikirim oleh bot
+  ctx.replyWithHTML(msg, photo);
+
+  // Fungsi untuk meneruskan chat pada action berikutnya
+  next();
+});
+bot.action('me_pakan', (ctx, next) => { 
   // Menu
   let menu = 'pakan';
 
@@ -142,21 +197,27 @@ bot.action('me_pakan', ctx => {
   let nama = ctx.from.first_name;
   let user = ctx.from.username;
   if (ctx.from.last_name) { 
-    nama += " " + ctx.from.last_name;
+    nama += ' ' + ctx.from.last_name;
   }
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+ctx.from.id+'\n👤 Nama : '+nama;
-  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+"\n⏰ Date : "+waktu_lengkap+".";
+  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+'\n⏰ Date : '+waktu_lengkap+'.';
+
+  // Pakan: amfibi
+  let msg = 'Test5';
+
+  // Photo Pakan
+  let photo = '';
 
   // Output yang dikirim oleh bot
-  ctx.replyWithHTML('Ini balasan menu Pakan.') & bot.telegram.sendMessage(admin_bot, pvmsg);
+  ctx.replyWithHTML(msg, photo) & bot.telegram.sendMessage(admin_bot, pvmsg);
 });
 
 // Respon habitat
 bot.action('me_habitat', (ctx, next) => { 
   // Habitat: ikan
-  let msg = "--------------------------------------------------------------\n🌱 Habitat: 🐟 Ikan (Pisces)\n--------------------------------------------------------------\n\nIkan dapat ditemukan hampir di semua perairan yang berukuran besar baik air tawar, air payau, maupun air asin (laut). Pada habitat aslinya, ikan dapat hidup bervariasi, mulai dari yang dekat permukaan hingga beberapa ribu meter di bawah permukaan.";
+  let msg = '--------------------------------------------------------------\n🌱 Habitat: 🐟 Ikan (Pisces)\n--------------------------------------------------------------\n\nIkan dapat ditemukan hampir di semua perairan yang berukuran besar baik air tawar, air payau, maupun air asin (laut). Pada habitat aslinya, ikan dapat hidup bervariasi, mulai dari yang dekat permukaan hingga beberapa ribu meter di bawah permukaan.';
 
   // Output yang dikirim oleh bot
   ctx.replyWithHTML(msg);
@@ -166,7 +227,7 @@ bot.action('me_habitat', (ctx, next) => {
 });
 bot.action('me_habitat', (ctx, next) => { 
   // Habitat: burung
-  let msg = "--------------------------------------------------------------\n🌱 Habitat: 🕊️ Burung (Aves)\n--------------------------------------------------------------\n\nHabitat burung terbentang mulai dari tepi pantai hingga ke puncak gunung. Burung yang memiliki habitat khusus di tepi pantai tidak dapat hidup di pegunungan dan sebaliknya. Namun ada pula spesies burung-burung umum yang dapat dijumpai di beberapa habitat.";
+  let msg = '--------------------------------------------------------------\n🌱 Habitat: 🕊️ Burung (Aves)\n--------------------------------------------------------------\n\nHabitat burung terbentang mulai dari tepi pantai hingga ke puncak gunung. Burung yang memiliki habitat khusus di tepi pantai tidak dapat hidup di pegunungan dan sebaliknya. Namun ada pula spesies burung-burung umum yang dapat dijumpai di beberapa habitat.';
 
   // Output yang dikirim oleh bot
   ctx.replyWithHTML(msg);
@@ -176,7 +237,7 @@ bot.action('me_habitat', (ctx, next) => {
 });
 bot.action('me_habitat', (ctx, next) => { 
   // Habitat: mamalia
-  let msg = "--------------------------------------------------------------\n🌱 Habitat: 🐇 Mamalia\n--------------------------------------------------------------\n\nMamalia hidup pada habitat yang berbeda dan tersebar luas baik di gurun, Arktik, lautan, hutan, gunung, tundra, padang rumput, dan sabana. Mamalia pun lazim dibandingkan dengan reptil dan amfibi karena habitatnya tersebut.";
+  let msg = '--------------------------------------------------------------\n🌱 Habitat: 🐇 Mamalia\n--------------------------------------------------------------\n\nMamalia hidup pada habitat yang berbeda dan tersebar luas baik di gurun, Arktik, lautan, hutan, gunung, tundra, padang rumput, dan sabana. Mamalia pun lazim dibandingkan dengan reptil dan amfibi karena habitatnya tersebut.';
 
   // Output yang dikirim oleh bot
   ctx.replyWithHTML(msg);
@@ -186,7 +247,7 @@ bot.action('me_habitat', (ctx, next) => {
 });
 bot.action('me_habitat', (ctx, next) => { 
   // Habitat: reptil
-  let msg = "--------------------------------------------------------------\n🌱 Habitat: 🐊 Reptil\n--------------------------------------------------------------\n\nKeberadaan reptil bisa ditemukan hampir di seluruh bagian dunia, kecuali benua Antartika. Reptil hidup di daratan, daerah perairan, atau bisa juga keduanya. Karena itu, persebaran reptil bisa ditemukan di berbagai tempat yang umum dikunjungi ataupun tidak bisa dikunjung manusia.";
+  let msg = '--------------------------------------------------------------\n🌱 Habitat: 🐊 Reptil\n--------------------------------------------------------------\n\nKeberadaan reptil bisa ditemukan hampir di seluruh bagian dunia, kecuali benua Antartika. Reptil hidup di daratan, daerah perairan, atau bisa juga keduanya. Karena itu, persebaran reptil bisa ditemukan di berbagai tempat yang umum dikunjungi ataupun tidak bisa dikunjung manusia.';
 
   // Output yang dikirim oleh bot
   ctx.replyWithHTML(msg);
@@ -202,15 +263,15 @@ bot.action('me_habitat', ctx => {
   let nama = ctx.from.first_name;
   let user = ctx.from.username;
   if (ctx.from.last_name) { 
-    nama += " " + ctx.from.last_name;
+    nama += ' ' + ctx.from.last_name;
   }
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+ctx.from.id+'\n👤 Nama : '+nama;
-  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+"\n⏰ Date : "+waktu_lengkap+".";
+  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+'\n⏰ Date : '+waktu_lengkap+'.';
 
   // Habitat: amfibi
-  let msg = "--------------------------------------------------------------\n🌱 Habitat: 🐸 Amfibi\n--------------------------------------------------------------\n\nHabitat utama amfibi adalah hutan primer, hutan sekunder, hutan rawa, sungai besar, sungai sedang, anak sungai, kolam dan danau. Umumnya amfibi dijumpai pada malam hari atau pada musim penghujan.";
+  let msg = '--------------------------------------------------------------\n🌱 Habitat: 🐸 Amfibi\n--------------------------------------------------------------\n\nHabitat utama amfibi adalah hutan primer, hutan sekunder, hutan rawa, sungai besar, sungai sedang, anak sungai, kolam dan danau. Umumnya amfibi dijumpai pada malam hari atau pada musim penghujan.';
 
   // Output yang dikirim oleh bot
   ctx.replyWithHTML(msg) & bot.telegram.sendMessage(admin_bot, pvmsg);
@@ -225,12 +286,12 @@ bot.action('me_kesehatan', ctx => {
   let nama = ctx.from.first_name;
   let user = ctx.from.username;
   if (ctx.from.last_name) { 
-    nama += " " + ctx.from.last_name;
+    nama += ' ' + ctx.from.last_name;
   }
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+ctx.from.id+'\n👤 Nama : '+nama;
-  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+"\n⏰ Date : "+waktu_lengkap+".";
+  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+'\n⏰ Date : '+waktu_lengkap+'.';
 
   // Output yang dikirim oleh bot
   ctx.replyWithHTML('Ini balasan menu Kesehatan.') & bot.telegram.sendMessage(admin_bot, pvmsg);
@@ -251,7 +312,7 @@ bot.action('sub_ikan', ctx => {
   let nama = ctx.from.first_name;
   let user = ctx.from.username;
   if (ctx.from.last_name) { 
-    nama += " " + ctx.from.last_name;
+    nama += ' ' + ctx.from.last_name;
   }
 
   // Notifikasi pengakses
@@ -275,12 +336,12 @@ bot.action('sub_burung', ctx => {
   let nama = ctx.from.first_name;
   let user = ctx.from.username;
   if (ctx.from.last_name) { 
-    nama += " " + ctx.from.last_name;
+    nama += ' ' + ctx.from.last_name;
   }
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+ctx.from.id+'\n👤 Nama : '+nama;
-  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+"\n⏰ Date : "+waktu_lengkap+".";
+  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+'\n⏰ Date : '+waktu_lengkap+'.';
 
   // Keterangan jenis
   let msg = '🕊️ Kelas Burung (Aves)\n\nHewan kelas ini seluruh anggota tubuhnya tertutup oleh bulu yang berasal dari epidermis. Selain itu, hewan kelas aves umumnya memiliki alat gerak berupa sayap untuk terbang. Contoh hewan kelas aves adalah burung Elang, burung Kakaktua, burung Kolibri, dan lain-lain.\n\n▶️ Sumber: <a href="https://www.youtube.com/@MooMooMath">@MooMooMath</a>\n---------------------------------------------------------\nInformasi lebih lanjut dapat anda akses pada bagian ini: <strong><a href="https://www.youtube.com/watch?v=LYbXeEIugtk&t=8s">Klik Disini</a></strong>';
@@ -299,12 +360,12 @@ bot.action('sub_mamalia', ctx => {
   let nama = ctx.from.first_name;
   let user = ctx.from.username;
   if (ctx.from.last_name) { 
-    nama += " " + ctx.from.last_name;
+    nama += ' ' + ctx.from.last_name;
   }
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+ctx.from.id+'\n👤 Nama : '+nama;
-  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+"\n⏰ Date : "+waktu_lengkap+".";
+  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+'\n⏰ Date : '+waktu_lengkap+'.';
 
   // Keterangan jenis
   let msg = '🐇 Kelas Mamalia\n\nHewan kelas ini memiliki kelenjar susu pada hewan betinanya. Contoh hewan kelas mamalia adalah kucing, sapi, kambing, beruang, monyet, harimau, anjing, kanguru, gajah, kelinci, badak, dan lain-lain.\n\n▶️ Sumber: <a href="https://www.youtube.com/@MooMooMath">@MooMooMath</a>\n---------------------------------------------------------\nInformasi lebih lanjut dapat anda akses pada bagian ini: <strong><a href="https://www.youtube.com/watch?v=fs9OoKv9Jts">Klik Disini</a></strong>';
@@ -323,12 +384,12 @@ bot.action('sub_reptil', ctx => {
   let nama = ctx.from.first_name;
   let user = ctx.from.username;
   if (ctx.from.last_name) { 
-    nama += " " + ctx.from.last_name;
+    nama += ' ' + ctx.from.last_name;
   }
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+ctx.from.id+'\n👤 Nama : '+nama;
-  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+"\n⏰ Date : "+waktu_lengkap+".";
+  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+'\n⏰ Date : '+waktu_lengkap+'.';
 
   // Keterangan jenis
   let msg = '🐊 Kelas Reptil\n\nHewan kelas ini bergerak dengan cara melata dan cenderung beradaptasi dengan kehidupan darat dan perairan. Contoh hewan kelas ini adalah kadal, tokek, buaya, kura-kura, ular, dan cecak.\n\n▶️ Sumber: <a href="https://www.youtube.com/@animalplanet">@animalplanet</a>\n---------------------------------------------------------\nInformasi lebih lanjut dapat anda akses pada bagian ini: <strong><a href="https://www.youtube.com/watch?v=vuQjs_ERFyU">Klik Disini</a></strong>';
@@ -347,12 +408,12 @@ bot.action('sub_amfibi', ctx => {
   let nama = ctx.from.first_name;
   let user = ctx.from.username;
   if (ctx.from.last_name) { 
-    nama += " " + ctx.from.last_name;
+    nama += ' ' + ctx.from.last_name;
   }
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+ctx.from.id+'\n👤 Nama : '+nama;
-  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+"\n⏰ Date : "+waktu_lengkap+".";
+  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+'\n⏰ Date : '+waktu_lengkap+'.';
 
   // Keterangan jenis
   let msg = '🐸 Kelas Amfibi\n\nHewan kelas ini dapat hidup di dua alam, yakni darat dan air tawar, tetapi tidak hidup di air laut. Contoh hewan vertebrata kelas amphibia adalah katak dan salamander.\n\n▶️ Sumber: <a href="https://www.youtube.com/@MooMooMath">@MooMooMath</a>\n---------------------------------------------------------\nInformasi lebih lanjut dapat anda akses pada bagian ini: <strong><a href="https://www.youtube.com/watch?v=AKN0Z1rIcMo">Klik Disini</a></strong>';
