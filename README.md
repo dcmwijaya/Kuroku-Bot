@@ -44,7 +44,7 @@ This Telegram-based ChatBot was built through the ``` Google App Scripts ``` pla
 
 6. Add ``` the library ``` -> Always select ``` the highest version of the library ``` -> Save.
   
-7. Paste the ``` Fire bot token telegram ``` that you have obtained from ``` @BotFather ``` as follows :
+7. Paste the ``` API bot token telegram ``` that you have obtained from ``` @BotFather ``` as follows :
    ```bash
    // Token API
    const token = '1264610746:AAF3HuLDWCPKIGcinRY5Uf-qTpsWWw_jN0K';
