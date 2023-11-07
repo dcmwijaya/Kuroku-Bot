@@ -17,6 +17,10 @@ let keyboard = [];
 const button = lumpia.button;
 const markup = lumpia.markup;
 
+// Penunjukkan waktu
+let date = new Date();
+let tanggal = Utilities.formatDate(date, "Asia/Jakarta", "yyyy/MM/dd");
+let waktu_lengkap = Utilities.formatDate(date, "Asia/Jakarta", "yyyy/MM/dd , HH:mm:ss");
 
 
 
@@ -55,27 +59,27 @@ bot.start(ctx => {
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+ctx.from.id+'\n👤 Nama : '+nama;
-  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu;
+  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+"\n⏰ Date : "+waktu_lengkap+".";
 
   // Ucapan selamat datang
-  let msg = '📢 Selamat datang di 🐶'+username_bot+'. Bot ini dapat memberikan edukasi praktis terkait bagaimana cara merawat hewan peliharaan.\n\n👋 Hai '+nama+'...\n🚹 Username = @'+user;
+  let msg = '📢 Selamat datang di <b>'+username_bot+'</b>. Bot ini dapat memberikan edukasi praktis terkait bagaimana cara merawat hewan peliharaan.\n\n👋 Hai <b>'+nama+'</b>...\n🚹 Username = @'+user;
   msg += '\n\nSilakan pilih menu dibawah ini..';
 
   // Opsi keyboard baris-1
   keyboard[0] = [
-    button.text('🐈Jenis', 'me_jenis'),
-    button.text('🍗Pakan', 'me_pakan')
+    button.text('🐈 Jenis', 'me_jenis'),
+    button.text('🍗 Pakan', 'me_pakan')
   ];
 
   // Opsi keyboard baris-2
   keyboard[1] = [
-    button.text('🌱Habitat', 'me_habitat'),
-    button.text('💊Kesehatan', 'me_kesehatan')
+    button.text('🌱 Habitat', 'me_habitat'),
+    button.text('💊 Kesehatan', 'me_kesehatan')
   ];
 
   // Opsi keyboard baris-3
   keyboard[2] = [
-    button.text('❓Bantuan', 'me_bantuan')
+    button.text('❓Status Bot', 'me_status')
   ];
 
   // Output yang dikirim oleh bot
@@ -84,8 +88,77 @@ bot.start(ctx => {
 })
 
 // Aksi Bot Telegram pada Menu Utama
-bot.action('me_jenis', ctx => ctx.replyWithHTML('Ini balasan menu Jenis.'));
-bot.action('me_pakan', ctx => ctx.replyWithHTML('Ini balasan menu Pakan.'));
-bot.action('me_habitat', ctx => ctx.replyWithHTML('Ini balasan menu Habitat.'));
-bot.action('me_kesehatan', ctx => ctx.replyWithHTML('Ini balasan menu Kesehatan.'));
-bot.action('me_bantuan', ctx => ctx.replyWithHTML('Menu yang tersedia di bot saat ini ada 5 yaitu: 1.Jenis, 2.Pakan, 3.Habitat, 4.Kesehatan, 5.Bantuan.'));
+// Respon jenis
+bot.action('me_jenis', ctx => { 
+  // Menu
+  let menu = 'jenis';
+
+  // Pengguna
+  let nama = ctx.from.first_name;
+  let user = ctx.from.username;
+  if (ctx.from.last_name) { 
+    nama += " " + ctx.from.last_name;
+  }
+
+  // Notifikasi pengakses
+  let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+ctx.from.id+'\n👤 Nama : '+nama;
+  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+"\n⏰ Date : "+waktu_lengkap+".";
+
+  ctx.replyWithHTML('Ini balasan menu Jenis.') & bot.telegram.sendMessage(admin_bot, pvmsg);
+});
+// Respon pakan
+bot.action('me_pakan', ctx => { 
+  // Menu
+  let menu = 'pakan';
+
+  // Pengguna
+  let nama = ctx.from.first_name;
+  let user = ctx.from.username;
+  if (ctx.from.last_name) { 
+    nama += " " + ctx.from.last_name;
+  }
+
+  // Notifikasi pengakses
+  let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+ctx.from.id+'\n👤 Nama : '+nama;
+  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+"\n⏰ Date : "+waktu_lengkap+".";
+
+  ctx.replyWithHTML('Ini balasan menu Pakan.') & bot.telegram.sendMessage(admin_bot, pvmsg);
+});
+// Respon habitat
+bot.action('me_habitat', ctx => { 
+  // Menu
+  let menu = 'habitat';
+
+  // Pengguna
+  let nama = ctx.from.first_name;
+  let user = ctx.from.username;
+  if (ctx.from.last_name) { 
+    nama += " " + ctx.from.last_name;
+  }
+
+  // Notifikasi pengakses
+  let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+ctx.from.id+'\n👤 Nama : '+nama;
+  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+"\n⏰ Date : "+waktu_lengkap+".";
+
+  ctx.replyWithHTML('Ini balasan menu Habitat.') & bot.telegram.sendMessage(admin_bot, pvmsg);
+});
+// Respon kesehatan
+bot.action('me_kesehatan', ctx => { 
+  // Menu
+  let menu = 'kesehatan';
+
+  // Pengguna
+  let nama = ctx.from.first_name;
+  let user = ctx.from.username;
+  if (ctx.from.last_name) { 
+    nama += " " + ctx.from.last_name;
+  }
+
+  // Notifikasi pengakses
+  let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+ctx.from.id+'\n👤 Nama : '+nama;
+  pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+"\n⏰ Date : "+waktu_lengkap+".";
+
+  ctx.replyWithHTML('Ini balasan menu Kesehatan.') & bot.telegram.sendMessage(admin_bot, pvmsg);
+});
+// Respon status
+bot.action('me_status', ctx => ctx.answerCallbackQuery('Sistem sedang berjalan ['+tanggal+']'));
