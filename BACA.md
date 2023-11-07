@@ -80,12 +80,40 @@ ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts `
 <br>
 
 ## Sorotan
-<img src="https://user-images.githubusercontent.com/54527592/100519999-0ad9c500-31ce-11eb-84f6-8d5450464a8b.jpg" />
+<table>
+<tr>
+<th colspan="4">Tampilan Interaksi Bot Telegram</th>
+</tr>
+<tr>
+<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/543e4a67-17b0-4f8f-ae48-8fee8a1df494" alt="bot-1"></td>
+<td width="210"><img src="" alt="bot-2"></td>
+<td width="210"><img src="" alt="bot-3"></td>
+<td width="210"><img src="" alt="bot-4"></td>
+</tr>
+<tr>
+<td width="210"><img src="" alt="bot-5"></td>
+<td width="210"><img src="" alt="bot-6"></td>
+<td width="210"><img src="" alt="bot-7"></td>
+<td width="210"><img src="" alt="bot-8"></td>
+</tr>
+<tr>
+<td width="210"><img src="" alt="bot-9"></td>
+<td width="210"><img src="" alt="bot-10"></td>
+<td width="210"><img src="" alt="bot-11"></td>
+<td width="210"><img src="" alt="bot-12"></td>
+</tr>
+<tr>
+<td width="210"><img src="" alt="bot-13"></td>
+<td width="210"><img src="" alt="bot-14"></td>
+<td width="210"><img src="" alt="bot-15"></td>
+<td width="210"><img src="" alt="bot-16"></td>
+</tr>
+</table>
 
 <br>
 
 ## Demonstrasi Aplikasi
-Via Telegram: <a href="http://t.me/KUROKU_bot">@KUROKU</a>
+Via Telegram: <a href="http://t.me/kuroku_bot">@kuroku_bot</a>
 
 <br>
 
