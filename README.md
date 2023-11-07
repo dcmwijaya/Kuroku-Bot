@@ -48,8 +48,8 @@ This Telegram-based ChatBot was built through the ``` Google App Scripts ``` pla
   
 7. Paste the ``` Fire bot token telegram ``` that you have obtained from ``` @BotFather ``` as follows :
    ```bash
-   // Insert your bot token here
-   var token = '1264610746:AAF3HuLDWCPKIGcinRY5Uf-qTpsWWw_jN0K';
+   // Token API
+   const token = '1264610746:AAF3HuLDWCPKIGcinRY5Uf-qTpsWWw_jN0K';
    ```
 
 8. Click ``` Apply ``` -> ``` New deployment ``` -> Select type: ``` Web Application ```.
@@ -58,14 +58,13 @@ This Telegram-based ChatBot was built through the ``` Google App Scripts ``` pla
    
 10. Review permissions -> Select ``` your email ``` -> Continue -> Open ``` your bot project (not secure) ``` -> Allow.
 
-11. Copy the ``` web app URL link ``` -> Paste the link into the ``` var webAppUrl ``` section in ``` Code.gs ``` as follows:
+11. Copy the ``` web app URL link ``` -> Paste the link into the ``` let url ``` section in ``` index.gs ``` as follows:
 
     ```bash
-    // Fill in the web App URL that was obtained during deployment
-    var webAppUrl = "https://api.telegram.org/bot1164101112:AA1BC1DI/setwebhook?url=https://script.google.com/macros/s/AKfycbyKodePanjang/exec";
+    let url = 'https://api.telegram.org/bot1164101112:AA1BC1DI/setwebhook?url=https://script.google.com/macros/s/AKfycbyKodePanjang/exec';
     ```
 
-12. Click ``` Run ```.
+12. Make sure the function being executed is ``` setWebHook ``` -> Click ``` Run ```.
 
     Will be considered successful if the ``` execution log ``` reads: ``` Info {ok=true, description=Webhook is already set, result=true} ```.
    
