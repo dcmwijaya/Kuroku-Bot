@@ -63,14 +63,14 @@ bot.start(ctx => {
 
   // Opsi keyboard baris-1
   keyboard[0] = [
-    button.url('🐈Jenis', 'me_jenis'),
-    button.url('🍗Pakan', 'me_pakan')
+    button.text('🐈Jenis', 'me_jenis'),
+    button.text('🍗Pakan', 'me_pakan')
   ];
 
   // Opsi keyboard baris-2
   keyboard[1] = [
-    button.url('🌱Habitat', 'me_habitat'),
-    button.url('💊Kesehatan', 'me_kesehatan')
+    button.text('🌱Habitat', 'me_habitat'),
+    button.text('💊Kesehatan', 'me_kesehatan')
   ];
 
   // Opsi keyboard baris-3
