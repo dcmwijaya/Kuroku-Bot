@@ -8,8 +8,6 @@
 ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts ```. Bahasa pemrograman dalam pengembangan sistem ini menggunakan ``` Javascript ```.
 
 <br>
-~ REPO INI SEDANG DIPERBAIKI, UNTUK KODE MASIH BELUM BISA BEKERJA DENGAN BAIK ~
-<br><br><br>
 
 ## Fitur / Kerangka Kerja / Peralatan
 | Bagian | Deskripsi |
@@ -48,8 +46,8 @@ ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts `
   
 7. Tempelkan ``` Api bot token telegram ``` yang telah anda peroleh dari ``` @BotFather ``` seperti berikut ini :
    ```bash
-   // Masukkan token bot mu di sini
-   var token = '1264610746:AAF3HuLDWCPKIGcinRY5Uf-qTpsWWw_jN0K';
+   // Token API
+   const token = '1264610746:AAF3HuLDWCPKIGcinRY5Uf-qTpsWWw_jN0K';
    ```
 
 8. Klik ``` Terapkan ``` -> ``` Deployment baru ``` -> Pilih jenis: ``` Aplikasi Web ```.
@@ -58,14 +56,13 @@ ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts `
    
 10. Meninjau izin -> Pilih ``` email anda ``` -> Lanjutkan -> Buka ``` proyek bot anda (tidak aman) ``` -> Izinkan.
 
-11. Salin ``` link web app URL ``` -> Tempelkan link tersebut pada bagian ``` var webAppUrl ``` yang ada di ``` Code.gs ``` seperti berikut :
+11. Salin ``` link web app URL ``` -> Tempelkan link tersebut pada bagian ``` let url ``` yang ada di ``` index.gs ``` seperti berikut :
 
     ```bash
-    // Isi dengan web App URL yang di dapat saat deploy
-    var webAppUrl = "https://api.telegram.org/bot1164101112:AA1BC1DI/setwebhook?url=https://script.google.com/macros/s/AKfycbyKodePanjang/exec";
+    let url = 'https://api.telegram.org/bot1164101112:AA1BC1DI/setwebhook?url=https://script.google.com/macros/s/AKfycbyKodePanjang/exec';
     ```
 
-12. Klik ``` Jalankan ```.
+12. Pastikan fungsi yang sedang dijalankan adalah ``` setWebHook ``` -> Klik ``` Jalankan ```.
 
     Akan dianggap berhasil jika ``` log eksekusi ``` bertuliskan: ``` Info {ok=true, description=Webhook is already set, result=true} ```.
    
