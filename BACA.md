@@ -94,10 +94,10 @@ ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts `
 <td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/daf9ef2b-6959-4690-b89e-2d2bd29cbf30" alt="bot-5"></td>
 <td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/a2af08fa-c09c-4b77-8ee7-fa04fa8c5cc8" alt="bot-6"></td>
 <td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/82bd3528-9c1d-433f-9f6a-eec2d17a0eb7" alt="bot-7"></td>
-<td width="210"><img src="" alt="bot-8"></td>
+<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/cc473ae4-8bc1-43c7-a40c-eaabda45569e" alt="bot-8"></td>
 </tr>
 <tr>
-<td width="210"><img src="" alt="bot-9"></td>
+<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/1f3c90dc-eb2d-496a-9f04-4fe6b1314cc6" alt="bot-9"></td>
 <td width="210"><img src="" alt="bot-10"></td>
 <td width="210"><img src="" alt="bot-11"></td>
 <td width="210"><img src="" alt="bot-12"></td>
