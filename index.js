@@ -22,7 +22,7 @@ const markup = lumpia.markup;
 
 // Pewaktuan
 let date = new Date();
-let tanggal = Utilities.formatDate(date, 'Asia/Jakarta', 'yyyy/MM/dd');
+let waktu_singkat = Utilities.formatDate(date, 'Asia/Jakarta', 'yyyy/MM/dd');
 let waktu_lengkap = Utilities.formatDate(date, 'Asia/Jakarta', 'yyyy/MM/dd , HH:mm:ss');
 
 
@@ -38,7 +38,7 @@ function doPost(e) {
 // Bagian ini untuk mengatur WebHook
 function setWebHook() {
   let url = 'WEB URL DEPLOY ANDA';
-  let result = bot.telegram.setWebhook(url);
+  let result = bot.tg.setWebhook(url);
   Logger.log(result);
 }
 
@@ -87,8 +87,8 @@ bot.start(ctx => {
 
   // Output yang dikirim oleh bot
   ctx.replyWithHTML(msg,{ reply_markup: markup.inlineKeyboard(keyboard) }) 
-  & bot.telegram.sendMessage(admin_bot, pvmsg);
-})
+  & ctx.tg.sendMessage(admin_bot, pvmsg);
+});
 
 
 
@@ -133,58 +133,70 @@ bot.action('me_jenis', ctx => {
 
   // Output yang dikirim oleh bot
   ctx.replyWithHTML(msg,{ reply_markup: markup.inlineKeyboard(keyboard) }) 
-  & bot.telegram.sendMessage(admin_bot, pvmsg);
+  & ctx.tg.sendMessage(admin_bot, pvmsg);
 });
 
 // Respon pakan
 bot.action('me_pakan', (ctx, next) => {
   // Pakan: ikan
-  let msg = 'Test1';
+  let msg = '------------------------------------------------------------\n🍗 Pakan: 🐟 Ikan (Pisces)\n------------------------------------------------------------\n\nPakan ikan terbagi menjadi 2 macam, yaitu alami dan buatan. Pakan alami merupakan pakan yang telah tersedia di alam. Contoh pakan alami, yaitu cacing; ikan hidup; invertebrata akuatik, seperti daphnia atau artemia; larva serangga seperti bloodworm, jentik nyamuk, infusoria, rotifera, dan lain-lain. Pakan buatan merupakan pakan yang dibuat dengan formulasi tertentu, baik nabati maupun hewani berdasarkan pertimbangan pembuatnya. Pakan buatan biasanya dibuat di pabrik dan dijual secara komersial atau bisa juga membuatnya sendiri. Contoh pakan buatan, yaitu pelet ikan. Dalam hal pemberian pakan hewan, jenis pakan dan hewan apa yang anda pelihara itu tidak boleh sembarangan dan harus mengutamakan kecocokan agar nafsu makan hewan dapat bertambah.';
 
   // Photo Pakan
-  let photo = 'https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/cc9c2042-ff15-42b7-8156-d77a8d8d225e';
+  let url_foto = 'https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/2459da6a-ae1d-41d4-a886-3faf001517e5';
+
+  // Markdown
+  const markdown = {'caption': msg,'parse_mode': 'markdown'};
 
   // Output yang dikirim oleh bot
-  ctx.replyWithHTML(msg) & replyWithPhoto(photo);
+  ctx.replyWithPhoto(url_foto, markdown);
 
   // Fungsi untuk meneruskan chat pada action berikutnya
   next();
 });
 bot.action('me_pakan', (ctx, next) => { 
   // Pakan: burung
-  let msg = 'Test2';
+  let msg = '------------------------------------------------------------\n🍗 Pakan: 🕊️ Burung (Aves)\n------------------------------------------------------------\n\nPakan burung terbagi menjadi 2 macam, yaitu alami dan buatan. Pakan alami merupakan pakan yang telah tersedia di alam. Contoh pakan alami, yaitu biji-bijian, kroto (larva semut), jangkrik, ulat, dan lain-lain. Pakan buatan merupakan pakan yang dibuat dengan formulasi tertentu, baik nabati maupun hewani berdasarkan pertimbangan pembuatnya. Pakan buatan biasanya dibuat di pabrik dan dijual secara komersial atau bisa juga membuatnya sendiri. Contoh pakan buatan, yaitu pelet burung. Dalam hal pemberian pakan hewan, jenis pakan dan hewan apa yang anda pelihara itu tidak boleh sembarangan dan harus mengutamakan kecocokan agar nafsu makan hewan dapat bertambah.';
 
   // Photo Pakan
-  let photo = '';
+  let url_foto = 'https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/18e435c5-5db5-4cbe-86e9-d42bc12900ce';
+
+  // Markdown
+  const markdown = {'caption': msg,'parse_mode': 'markdown'};
 
   // Output yang dikirim oleh bot
-  ctx.replyWithHTML(msg, photo);
+  ctx.replyWithPhoto(url_foto, markdown);
 
   // Fungsi untuk meneruskan chat pada action berikutnya
   next();
 });
 bot.action('me_pakan', (ctx, next) => { 
   // Pakan: mamalia
-  let msg = 'Test3';
+  let msg = '------------------------------------------------------------\n🍗 Pakan: 🐇 Mamalia\n------------------------------------------------------------\n\nPakan mamalia terbagi menjadi 2 macam, yaitu alami dan buatan. Pakan alami merupakan pakan yang telah tersedia di alam. Contoh pakan alami, yaitu rerumputan, buah-buahan, dedaunan, biji-bijian, umbi-umbian, daging-dagingan, dan lain-lain. Pakan buatan merupakan pakan yang dibuat dengan formulasi tertentu, baik nabati maupun hewani berdasarkan pertimbangan pembuatnya. Pakan buatan biasanya dibuat di pabrik dan dijual secara komersial atau bisa juga membuatnya sendiri. Contoh pakan buatan, yaitu pelet kelinci, pelet anjing, pelet kucing, dan lain-lain. Dalam hal pemberian pakan hewan, jenis pakan dan hewan apa yang anda pelihara itu tidak boleh sembarangan dan harus mengutamakan kecocokan agar nafsu makan hewan dapat bertambah.';
 
   // Photo Pakan
-  let photo = '';
+  let url_foto = 'https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/18c114cf-ff84-45d2-94c7-cfefe804c831';
+
+  // Markdown
+  const markdown = {'caption': msg,'parse_mode': 'markdown'};
 
   // Output yang dikirim oleh bot
-  ctx.replyWithHTML(msg, photo);
+  ctx.replyWithPhoto(url_foto, markdown);
 
   // Fungsi untuk meneruskan chat pada action berikutnya
   next();
 });
 bot.action('me_pakan', (ctx, next) => { 
   // Pakan: reptil
-  let msg = 'Test4';
+  let msg = '------------------------------------------------------------\n🍗 Pakan: 🐊 Reptil\n------------------------------------------------------------\n\nPakan reptil terbagi menjadi 2 macam, yaitu alami dan buatan. Pakan alami merupakan pakan yang telah tersedia di alam. Contoh pakan alami, yaitu tikus, serangga, siput, cacing, dedaunan, buah-buahan, biji-bijian, dan lain-lain. Pakan buatan merupakan pakan yang dibuat dengan formulasi tertentu, baik nabati maupun hewani berdasarkan pertimbangan pembuatnya. Pakan buatan biasanya dibuat di pabrik dan dijual secara komersial atau bisa juga membuatnya sendiri. Contoh pakan buatan, yaitu pelet kura-kura, pelet kadal, dan lain-lain. Dalam hal pemberian pakan hewan, jenis pakan dan hewan apa yang anda pelihara itu tidak boleh sembarangan dan harus mengutamakan kecocokan agar nafsu makan hewan dapat bertambah.';
 
   // Photo Pakan
-  let photo = '';
+  let url_foto = 'https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/e97473f4-86d1-411c-9bed-d755289977a5';
+
+  // Markdown
+  const markdown = {'caption': msg,'parse_mode': 'markdown'};
 
   // Output yang dikirim oleh bot
-  ctx.replyWithHTML(msg, photo);
+  ctx.replyWithPhoto(url_foto, markdown);
 
   // Fungsi untuk meneruskan chat pada action berikutnya
   next();
@@ -205,13 +217,16 @@ bot.action('me_pakan', (ctx, next) => {
   pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+'\n⏰ Date : '+waktu_lengkap+'.';
 
   // Pakan: amfibi
-  let msg = 'Test5';
+  let msg = '------------------------------------------------------------\n🍗 Pakan: 🐸 Amfibi\n------------------------------------------------------------\n\nPakan amfibi terbagi menjadi 2 macam, yaitu alami dan buatan. Pakan alami merupakan pakan yang telah tersedia di alam. Contoh pakan alami, yaitu cacing, ikan, belatung, ulat, lalat, jangkrik, kumbang, belalang, laba-laba, siput, dan lain-lain. Pakan buatan merupakan pakan yang dibuat dengan formulasi tertentu, baik nabati maupun hewani berdasarkan pertimbangan pembuatnya. Pakan buatan biasanya dibuat di pabrik dan dijual secara komersial atau bisa juga membuatnya sendiri. Contoh pakan buatan, yaitu pelet salamander, pelet katak, dan lain-lain. Dalam hal pemberian pakan hewan, jenis pakan dan hewan apa yang anda pelihara itu tidak boleh sembarangan dan harus mengutamakan kecocokan agar nafsu makan hewan dapat bertambah.';
 
   // Photo Pakan
-  let photo = '';
+  let url_foto = 'https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/bca8464d-ddda-47bb-a2c4-bd539b80515d';
+
+  // Markdown
+  const markdown = {'caption': msg,'parse_mode': 'markdown'};
 
   // Output yang dikirim oleh bot
-  ctx.replyWithHTML(msg, photo) & bot.telegram.sendMessage(admin_bot, pvmsg);
+  ctx.replyWithPhoto(url_foto, markdown) & ctx.tg.sendMessage(admin_bot, pvmsg);
 });
 
 // Respon habitat
@@ -274,7 +289,7 @@ bot.action('me_habitat', ctx => {
   let msg = '--------------------------------------------------------------\n🌱 Habitat: 🐸 Amfibi\n--------------------------------------------------------------\n\nHabitat utama amfibi adalah hutan primer, hutan sekunder, hutan rawa, sungai besar, sungai sedang, anak sungai, kolam dan danau. Umumnya amfibi dijumpai pada malam hari atau pada musim penghujan.';
 
   // Output yang dikirim oleh bot
-  ctx.replyWithHTML(msg) & bot.telegram.sendMessage(admin_bot, pvmsg);
+  ctx.replyWithHTML(msg) & ctx.tg.sendMessage(admin_bot, pvmsg);
 });
 
 // Respon kesehatan
@@ -294,11 +309,11 @@ bot.action('me_kesehatan', ctx => {
   pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+'\n⏰ Date : '+waktu_lengkap+'.';
 
   // Output yang dikirim oleh bot
-  ctx.replyWithHTML('Ini balasan menu Kesehatan.') & bot.telegram.sendMessage(admin_bot, pvmsg);
+  ctx.replyWithHTML('Ini balasan menu Kesehatan.') & ctx.tg.sendMessage(admin_bot, pvmsg);
 });
 
 // Respon status
-bot.action('me_status', ctx => ctx.answerCallbackQuery('Sistem sedang berjalan ['+tanggal+']'));
+bot.action('me_status', ctx => ctx.answerCallbackQuery('Sistem sedang berjalan ['+waktu_singkat+']'));
 
 
 // Aksi Bot Telegram pada Sub Menu: Jenis
@@ -324,7 +339,7 @@ bot.action('sub_ikan', ctx => {
 
   // Output yang dikirim oleh bot
   ctx.replyWithHTML(msg,{ reply_markup: markup.inlineKeyboard(keyboard) }) 
-  & bot.telegram.sendMessage(admin_bot, pvmsg);
+  & ctx.tg.sendMessage(admin_bot, pvmsg);
 });
 
 // Respon burung
@@ -348,7 +363,7 @@ bot.action('sub_burung', ctx => {
 
   // Output yang dikirim oleh bot
   ctx.replyWithHTML(msg,{ reply_markup: markup.inlineKeyboard(keyboard) }) 
-  & bot.telegram.sendMessage(admin_bot, pvmsg);
+  & ctx.tg.sendMessage(admin_bot, pvmsg);
 });
 
 // Respon mamalia
@@ -372,7 +387,7 @@ bot.action('sub_mamalia', ctx => {
 
   // Output yang dikirim oleh bot
   ctx.replyWithHTML(msg,{ reply_markup: markup.inlineKeyboard(keyboard) }) 
-  & bot.telegram.sendMessage(admin_bot, pvmsg);
+  & ctx.tg.sendMessage(admin_bot, pvmsg);
 });
 
 // Respon reptil
@@ -396,7 +411,7 @@ bot.action('sub_reptil', ctx => {
 
   // Output yang dikirim oleh bot
   ctx.replyWithHTML(msg,{ reply_markup: markup.inlineKeyboard(keyboard) }) 
-  & bot.telegram.sendMessage(admin_bot, pvmsg);
+  & ctx.tg.sendMessage(admin_bot, pvmsg);
 });
 
 // Respon amfibi
@@ -420,7 +435,7 @@ bot.action('sub_amfibi', ctx => {
 
   // Output yang dikirim oleh bot
   ctx.replyWithHTML(msg,{ reply_markup: markup.inlineKeyboard(keyboard) }) 
-  & bot.telegram.sendMessage(admin_bot, pvmsg);
+  & ctx.tg.sendMessage(admin_bot, pvmsg);
 });
 
 
