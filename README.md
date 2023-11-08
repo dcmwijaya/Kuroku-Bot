@@ -98,13 +98,13 @@ This Telegram-based ChatBot was built through the ``` Google App Scripts ``` pla
 </tr>
 <tr>
 <td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/1f3c90dc-eb2d-496a-9f04-4fe6b1314cc6" alt="bot-9"></td>
-<td width="210"><img src="" alt="bot-10"></td>
-<td width="210"><img src="" alt="bot-11"></td>
-<td width="210"><img src="" alt="bot-12"></td>
+<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/c1e0754a-cd3d-402d-9cbd-01248757d3f2" alt="bot-10"></td>
+<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/b9004aeb-21ad-46d2-96ef-f35feb66ac7a" alt="bot-11"></td>
+<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/6c1a7273-df60-4962-923c-32b75970ee19" alt="bot-12"></td>
 </tr>
 <tr>
-<td width="210"><img src="" alt="bot-13"></td>
-<td width="210"><img src="" alt="bot-14"></td>
+<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/5b182cb8-94d1-48fa-b4fc-f126da11e3b3" alt="bot-13"></td>
+<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/1bc64775-925a-4c1b-8b1a-8d93c921b5f5" alt="bot-14"></td>
 <td width="210"><img src="" alt="bot-15"></td>
 <td width="210"><img src="" alt="bot-16"></td>
 </tr>
