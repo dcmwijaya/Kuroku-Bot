@@ -68,21 +68,11 @@ bot.start(ctx => {
   let msg = '📢 Selamat datang di <b>'+username_bot+'</b>. Bot ini dapat memberikan edukasi praktis terkait bagaimana cara merawat hewan peliharaan.\n\n👋 Hai <b>'+nama+'</b>...\n🚹 Username = @'+user;
   msg += '\n\nSilakan pilih menu dibawah ini ⬇️⬇️⬇️';
 
-  // Opsi keyboard baris-1
-  keyboard[0] = [
-    button.text('🐈 Jenis', 'me_jenis'),
-    button.text('🍗 Pakan', 'me_pakan')
-  ];
-
-  // Opsi keyboard baris-2
-  keyboard[1] = [
-    button.text('🌱 Habitat', 'me_habitat'),
-    button.text('💊 Kesehatan', 'me_kesehatan')
-  ];
-
-  // Opsi keyboard baris-3
-  keyboard[2] = [
-    button.text('❓Status Bot', 'me_status')
+  // Opsi keyboard
+  keyboard = [
+    [button.text('🐈 Jenis', 'me_jenis'), button.text('🍗 Pakan', 'me_pakan')],
+    [button.text('🌱 Habitat', 'me_habitat'), button.text('💊 Kesehatan', 'me_kesehatan')],
+    [button.text('❓Status Bot', 'me_status')]
   ];
 
   // Output yang dikirim oleh bot
@@ -114,21 +104,11 @@ bot.action('me_jenis', ctx => {
   // Keterangan jenis
   let msg = '🐈 Jenis Hewan\n\nJenis hewan yang dimaksud ini berdasarkan pada kelas.\n\nSilakan pilih jenis hewan peliharaan anda dibawah ini untuk mendapatkan informasi lebih lanjut ⬇️⬇️⬇️⬇️⬇️';
 
-  // Opsi keyboard baris-1
-  keyboard[0] = [
-    button.text('🐟 Ikan', 'sub_ikan'),
-    button.text('🕊️ Burung', 'sub_burung')
-  ];
-
-  // Opsi keyboard baris-2
-  keyboard[1] = [
-    button.text('🐇 Mamalia', 'sub_mamalia'),
-    button.text('🐊 Reptil', 'sub_reptil')
-  ];
-
-  // Opsi keyboard baris-3
-  keyboard[2] = [
-    button.text('🐸 Amfibi', 'sub_amfibi')
+  // Opsi keyboard
+  keyboard = [
+    [button.text('🐟 Ikan', 'sub_ikan'), button.text('🕊️ Burung', 'sub_burung')],
+    [button.text('🐇 Mamalia', 'sub_mamalia'), button.text('🐊 Reptil', 'sub_reptil')],
+    [button.text('🐸 Amfibi', 'sub_amfibi')]
   ];
 
   // Output yang dikirim oleh bot
