@@ -33,40 +33,42 @@ This Telegram-based ChatBot was built through the ``` Google App Scripts ``` pla
 
 2. Create a new project first on the platform: ``` Google apps script ```.
   
-3. Add ``` new file ``` on the platform ``` Google apps script ``` with the name ``` index ``` -> Save.
+3. Add ``` 6 new files ``` on the platform ```Google apps script ``` with names ``` index ```, ``` startstatus ```, ``` jenis ```, ``` pakan ```, ``` habitat ```, and ``` kesehatan ``` -> Each file is ``` saved ```.
   
-4. Open the ``` Bot-Telegram-Based-JavaScript ``` directory then extract -> open the ``` index.js ``` file -> Copy & paste the entire contents into the ``` index.gs ``` on the ``` Google apps script ``` platform.
+4. Open the ``` Bot-Telegram-Berbasis-JavaScript ``` directory then extract -> open the ``` index.js ``` file -> Copy & paste the entire contents into the ``` index.gs ``` on the ``` Google apps script ``` platform.
 
-5. Enter the ``` Library ID ``` in the ``` Library ``` section:
+5. Open the ``` Bot-Telegram-Berbasis-JavaScript ``` directory then extract -> open the ``` assets ``` -> ``` command ``` -> Copy & paste the entire contents of each file into the files available on the platform ``` Google apps script ```.
+
+6. Enter the ``` Library ID ``` in the ``` Library ``` section:
    ```bash
    1Yo6vQRwjG5Gl9jeEF0g2tBTUa0XN5MyT4G_HeDpRr9DvabxhRcSdhPNj
    ```
 
-6. Add ``` the library ``` -> Always select ``` the highest version of the library ``` -> Save.
+7. Add ``` the library ``` -> Always select ``` the highest version of the library ``` -> Save.
   
-7. Paste the ``` API bot token telegram ``` that you have obtained from ``` @BotFather ``` as follows :
+8. Paste the ``` API bot token telegram ``` that you have obtained from ``` @BotFather ``` as follows :
    ```bash
    // Token API
    const token = '1264610746:AAF3HuLDWCPKIGcinRY5Uf-qTpsWWw_jN0K';
    ```
 
-8. Click ``` Apply ``` -> ``` New deployment ``` -> Select type: ``` Web Application ```.
+9. Click ``` Apply ``` -> ``` New deployment ``` -> Select type: ``` Web Application ```.
    
-9. Contents ``` Description ``` -> In the ``` Access ``` section, please select the section: ``` anyone can access ``` -> Apply.
+10. Contents ``` Description ``` -> In the ``` Access ``` section, please select the section: ``` anyone can access ``` -> Apply.
    
-10. Review permissions -> Select ``` your email ``` -> Continue -> Open ``` your bot project (not secure) ``` -> Allow.
+11. Review permissions -> Select ``` your email ``` -> Continue -> Open ``` your bot project (not secure) ``` -> Allow.
 
-11. Copy the ``` web app URL link ``` -> Paste the link into the ``` let url ``` section in ``` index.gs ``` as follows:
+12. Copy the ``` web app URL link ``` -> Paste the link into the ``` let url ``` section in ``` index.gs ``` as follows:
 
     ```bash
     let url = 'https://api.telegram.org/bot1164101112:AA1BC1DI/setwebhook?url=https://script.google.com/macros/s/AKfycbyKodePanjang/exec';
     ```
 
-12. Make sure the function being executed is ``` setWebHook ``` -> Click ``` Run ```.
+13. Make sure the function being executed is ``` setWebHook ``` -> Click ``` Run ```.
 
     Will be considered successful if the ``` execution log ``` reads: ``` Info {ok=true, description=Webhook is already set, result=true} ```.
    
-13. Enjoy [Done].
+14. Enjoy [Done].
 
 <br>
 
