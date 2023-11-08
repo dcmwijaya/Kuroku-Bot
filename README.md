@@ -37,7 +37,7 @@ This Telegram-based ChatBot was built through the ``` Google App Scripts ``` pla
   
 4. Open the ``` Bot-Telegram-Berbasis-JavaScript ``` directory then extract -> open the ``` index.js ``` file -> Copy & paste the entire contents into the ``` index.gs ``` on the ``` Google apps script ``` platform.
 
-5. Open the ``` Bot-Telegram-Berbasis-JavaScript ``` directory then extract -> open the ``` assets ``` -> ``` command ``` -> Copy & paste the entire contents of each file into the files available on the platform ``` Google apps script ```.
+5. Open the ``` Bot-Telegram-Berbasis-JavaScript ``` directory then extract -> open the ``` assets ``` -> ``` command ``` -> Copy & paste the entire contents of each file into the files available on the ``` Google apps script ``` platform.
 
 6. Enter the ``` Library ID ``` in the ``` Library ``` section:
    ```bash
