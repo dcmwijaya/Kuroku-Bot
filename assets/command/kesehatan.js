@@ -10,6 +10,11 @@ bot.action('me_kesehatan', ctx => {
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+user_id+'\n👤 Nama : '+name;
   pvmsg += '\n🚹 Username : @'+user+'\n📁 Akses menu : '+menu+'\n⏰ Date : '+waktu_lengkap+'.';
 
+  // Custom keyboard
+  custom_Keyboard = [
+    ['↩️ Menu Utama']
+  ];
+
   // Output yang dikirim oleh bot
-  ctx.replyWithHTML('<b>Catatan:</b> Dalam proses perbaikan...') & ctx.tg.sendMessage(admin_bot, pvmsg);
+  ctx.replyWithHTML('<b>Catatan:</b> Dalam proses perbaikan...') & ctx.tg.sendMessage(admin_bot, pvmsg,{ reply_markup: markup.keyboard(custom_Keyboard).resize() });
 });
