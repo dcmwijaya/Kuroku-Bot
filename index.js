@@ -20,8 +20,8 @@ function setWebHook() {
 }
 
 
-// Mode development: ON
-lumpia.verbose = true;
+// Mode development: OFF
+lumpia.verbose = false;
 
 
 // Chat id admin bot
@@ -35,21 +35,8 @@ const username_bot = 'kuroku_bot';
 // Keyboard
 const button = lumpia.button;
 const markup = lumpia.markup;
-let keyboard_start = [];
-keyboard_start = [
-  [button.text('🐈 Jenis', 'me_jenis'), button.text('🍗 Pakan', 'me_pakan')],
-  [button.text('🌱 Habitat', 'me_habitat'), button.text('💊 Kesehatan', 'me_kesehatan')],
-  [button.text('❓Status Bot', 'me_status')]
-];
-let keyboard_jenis = [];
-keyboard_jenis = [
-  [button.text('🐟 Ikan', 'sub_ikan'), button.text('🕊️ Burung', 'sub_burung')],
-  [button.text('🐇 Mamalia', 'sub_mamalia'), button.text('🐊 Reptil', 'sub_reptil')],
-  [button.text('🐸 Amfibi', 'sub_amfibi')]
-];
-let keyboard_back = [
-  [button.text('↩️ Kembali', 'kembali')]
-];
+let inline_Keyboard = [];
+let custom_Keyboard = [];
 
 
 // Pewaktuan
