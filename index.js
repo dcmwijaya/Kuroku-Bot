@@ -20,8 +20,8 @@ function setWebHook() {
 }
 
 
-// Mode production: OFF
-lumpia.verbose = false;
+// Mode development: ON
+lumpia.verbose = true;
 
 
 // Chat id admin bot
