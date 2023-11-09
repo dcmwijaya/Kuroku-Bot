@@ -1,5 +1,5 @@
-// Menu yang pertama kali muncul ketika bot dibuka
-bot.start(ctx => {
+// Menu Utama
+bot.hears(/start|↩️ Menu Utama/, ctx => {
   // Data akses
   let menu = 'start';
   let user_id = ctx.from.id;
@@ -14,8 +14,15 @@ bot.start(ctx => {
   let msg = '📢 Selamat datang di <b>'+username_bot+'</b>. Bot ini dapat memberikan edukasi praktis terkait bagaimana cara merawat hewan peliharaan.\n\n👋 Hai <b>'+name+'</b>...\n🚹 Username = @'+user;
   msg += '\n\nSilakan pilih menu dibawah ini ⬇️⬇️⬇️';
 
+  // Inline keyboard
+  inline_Keyboard = [
+    [button.text('🐈 Jenis', 'me_jenis'), button.text('🍗 Pakan', 'me_pakan')],
+    [button.text('🌱 Habitat', 'me_habitat'), button.text('💊 Kesehatan', 'me_kesehatan')],
+    [button.text('❓Status Bot', 'me_status')]
+  ];
+
   // Output yang dikirim oleh bot
-  ctx.replyWithHTML(msg,{ reply_markup: markup.inlineKeyboard(keyboard_start) }) & ctx.tg.sendMessage(admin_bot, pvmsg);
+  ctx.replyWithHTML(msg,{ reply_markup: markup.inlineKeyboard(inline_Keyboard) }) & ctx.tg.sendMessage(admin_bot, pvmsg);
 });
 
 
