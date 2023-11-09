@@ -80,6 +80,11 @@ bot.action('me_pakan', (ctx, next) => {
   // Foto Pakan
   let url_foto = 'https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/bca8464d-ddda-47bb-a2c4-bd539b80515d';
 
+  // Custom keyboard
+  custom_Keyboard = [
+    ['↩️ Menu Utama']
+  ];
+
   // Output yang dikirim oleh bot
-  ctx.replyWithPhoto(url_foto, {'caption': msg,'parse_mode': 'markdown'}) & ctx.tg.sendMessage(admin_bot, pvmsg);
+  ctx.replyWithPhoto(url_foto, {'caption': msg,'parse_mode': 'markdown'}) & ctx.tg.sendMessage(admin_bot, pvmsg,{ reply_markup: markup.keyboard(custom_Keyboard).resize() });
 });
