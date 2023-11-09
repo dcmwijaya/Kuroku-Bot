@@ -3,7 +3,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Bot-Telegram-JS-Sederhana)
 ![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=flat&logo=javascript&logoColor=%23F7DF1E)
 
-# Bot-Telegram-Berbasis-JavaScript
+# Kuroku-Bot
 <strong>UPN Veteran Jatim Website Programming Assignment</strong><br>
 This Telegram-based ChatBot was built through the ``` Google App Scripts ``` platform. The programming language in the development of this system uses ``` Javascript ```.
 
@@ -35,9 +35,9 @@ This Telegram-based ChatBot was built through the ``` Google App Scripts ``` pla
   
 3. Add ``` 6 new files ``` on the platform ```Google apps script ``` with names ``` index ```, ``` startstatus ```, ``` jenis ```, ``` pakan ```, ``` habitat ```, and ``` kesehatan ``` -> Each file is ``` saved ```.
   
-4. Open the ``` Bot-Telegram-Berbasis-JavaScript ``` directory then extract -> open the ``` index.js ``` file -> Copy & paste the entire contents into the ``` index.gs ``` on the ``` Google apps script ``` platform.
+4. Open the ``` Kuroku-Bot ``` directory then extract -> open the ``` index.js ``` file -> Copy & paste the entire contents into the ``` index.gs ``` on the ``` Google apps script ``` platform.
 
-5. Open the ``` Bot-Telegram-Berbasis-JavaScript ``` directory then extract -> open the ``` assets ``` -> ``` command ``` -> Copy & paste the entire contents of each file into the files available on the ``` Google apps script ``` platform.
+5. Open the ``` Kuroku-Bot ``` directory then extract -> open the ``` assets ``` -> ``` command ``` -> Copy & paste the entire contents of each file into the files available on the ``` Google apps script ``` platform.
 
 6. Enter the ``` Library ID ``` in the ``` Library ``` section:
    ```bash
