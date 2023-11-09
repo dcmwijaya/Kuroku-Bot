@@ -65,6 +65,11 @@ bot.action('me_habitat', ctx => {
   // Pesan
   let msg = '--------------------------------------------------------------\n🌱 Habitat: 🐸 Amfibi\n--------------------------------------------------------------\n\nHabitat utama amfibi adalah hutan primer, hutan sekunder, hutan rawa, sungai besar, sungai sedang, anak sungai, kolam dan danau. Umumnya amfibi dijumpai pada malam hari atau pada musim penghujan.';
 
+  // Custom keyboard
+  custom_Keyboard = [
+    ['↩️ Menu Utama']
+  ];
+
   // Output yang dikirim oleh bot
-  ctx.replyWithHTML(msg) & ctx.tg.sendMessage(admin_bot, pvmsg);
+  ctx.replyWithHTML(msg) & ctx.tg.sendMessage(admin_bot, pvmsg,{ reply_markup: markup.keyboard(custom_Keyboard).resize() });
 });
