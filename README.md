@@ -24,7 +24,9 @@ This Telegram-based ChatBot was built through the ``` Google App Scripts ``` pla
 
 2. Another ability of this bot is that it can provide notification to the bot owner that someone has accessed a certain menu, so that the bot owner can monitor the movements that occur directly.
 
-3. There is problem control in the system, if the message does not match the command it will be redirected to the ``` /help ``` command.
+3. There is problem control in the system.
+
+4. Attractive and educational display.
 
 <br>
 
