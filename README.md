@@ -95,8 +95,8 @@ This Telegram-based ChatBot is built on the ``` Google App Scripts ``` platform 
 <tr>
 <td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/97747aac-4ecd-4f30-a011-997503441d2b" alt="bot-5"></td>
 <td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/48936df6-13d3-48c4-969f-93eca3af66ac" alt="bot-6"></td>
-<td width="210"><img src="" alt="bot-7"></td>
-<td width="210"><img src="" alt="bot-8"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/e13e90a6-e8e2-43b4-9181-61f7adff7248" alt="bot-7"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/4ab69884-4216-470f-93a0-84d7bd0a51a0" alt="bot-8"></td>
 </tr>
 <tr>
 <td width="210"><img src="" alt="bot-9"></td>
