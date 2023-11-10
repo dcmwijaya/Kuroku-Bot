@@ -5,7 +5,7 @@
 
 # Kuroku-Bot
 <strong>Tugas Pemrograman Website UPN Veteran Jatim</strong><br>
-ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts ```. Bahasa pemrograman dalam pengembangan sistem ini menggunakan ``` Javascript ```.
+ChatBot berbasis Telegram ini dibangun di atas platform ``` Google App Scripts ``` dengan menggunakan bahasa pemrograman ``` Javascript ```. Framework yang digunakan adalah <b><a href="https://lumpia.js.org/">Lumpia.js</a></b>. Tujuan dibuatnya bot ini adalah untuk membantu seseorang memahami lebih jauh terkait jenis, pakan, habitat dan cara menjaga kesehatan dari hewan peliharaannya.
 
 <br>
 
