@@ -5,7 +5,7 @@
 
 # Kuroku-Bot
 <strong>UPN Veteran Jatim Website Programming Assignment</strong><br>
-This Telegram-based ChatBot was built through the ``` Google App Scripts ``` platform. The programming language in the development of this system uses ``` Javascript ```.
+This Telegram-based ChatBot is built on the ``` Google App Scripts ``` platform using ``` Javascript ``` as the programming language. The framework used is <b><a href="https://lumpia.js.org/">Lumpia.js</a></b>.
 
 <br>
 
