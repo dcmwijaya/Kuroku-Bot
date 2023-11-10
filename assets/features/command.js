@@ -60,7 +60,3 @@ bot.on('message', ctx => {
     ctx.replyWithHTML('⛔ Menu yang anda pilih tidak tersedia, harap periksa kembali..');
   }
 });
-
-
-// Respon status
-bot.action('me_status', ctx => ctx.answerCallbackQuery('Sistem sedang berjalan ['+waktu_singkat+']'));
