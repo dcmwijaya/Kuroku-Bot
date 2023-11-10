@@ -96,16 +96,16 @@ ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts `
 <td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/d9e5ca7a-c2d3-4c97-a9f2-be2c21900617" alt="bot-5"></td>
 <td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/db0d68e3-20bb-4fa5-8491-56411abe1b2d" alt="bot-6"></td>
 <td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/e9f0f167-5da1-40a5-8c92-5781de70d8af" alt="bot-7"></td>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/2d7acc76-d3c8-4e9b-94ac-a8aaeeac5e11" alt="bot-8"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/608c9eeb-33eb-44c7-a326-3ea404d1bb43" alt="bot-8"></td>
 </tr>
 <tr>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/a9770dc1-f036-4029-bacf-af4c692eb415" alt="bot-9"></td>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/60697ac6-0fb1-4e78-84bd-b6ea5a9fd9bf" alt="bot-10"></td>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/97747aac-4ecd-4f30-a011-997503441d2b" alt="bot-11"></td>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/7157069e-3dd9-4e27-93f9-8580d7da4dfa" alt="bot-12"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/2d7acc76-d3c8-4e9b-94ac-a8aaeeac5e11" alt="bot-9"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/a9770dc1-f036-4029-bacf-af4c692eb415" alt="bot-10"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/60697ac6-0fb1-4e78-84bd-b6ea5a9fd9bf" alt="bot-11"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/97747aac-4ecd-4f30-a011-997503441d2b" alt="bot-12"></td>
 </tr>
 <tr>
-<td width="210"><img src="" alt="bot-13"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/7157069e-3dd9-4e27-93f9-8580d7da4dfa" alt="bot-13"></td>
 <td width="210"><img src="" alt="bot-14"></td>
 <td width="210"><img src="" alt="bot-15"></td>
 <td width="210"><img src="" alt="bot-16"></td>
