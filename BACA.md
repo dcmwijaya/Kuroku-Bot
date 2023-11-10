@@ -30,7 +30,7 @@ ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts `
 
 <br>
 
-## Menjalankan
+## Memulai
 1. Unduh repositori ini.
 
 2. Buat proyek baru terlebih dahulu di platform: ``` Google apps script ```.
