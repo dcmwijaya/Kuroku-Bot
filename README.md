@@ -30,7 +30,7 @@ This Telegram-based ChatBot was built through the ``` Google App Scripts ``` pla
 
 <br>
 
-## Running
+## Get Started
 1. Download this repository.
 
 2. Create a new project first on the platform: ``` Google apps script ```.
