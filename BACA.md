@@ -24,7 +24,9 @@ ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts `
 
 2. Kemampuan lain dari bot ini adalah dapat memberikan notifikasi kepada pemilik bot bahwa ada seseorang yang mengakses menu tertentu, sehingga pemilik bot dapat memantau pergerakan yang terjadi secara langsung.
 
-3. Terdapat kontrol masalah dalam sistem, jika pesan tidak sesuai dengan perintah, maka akan dialihkan ke perintah ``` /help ```.
+3. Terdapat kontrol masalah dalam sistem.
+
+4. Tampilan yang menarik dan mendidik.
 
 <br>
 
