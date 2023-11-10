@@ -87,26 +87,26 @@ ChatBot berbasis Telegram ini dibangun melalui platform ``` Google App Scripts `
 <th colspan="4">Tampilan Interaksi Bot Telegram</th>
 </tr>
 <tr>
-<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/f1ba7113-1319-40ed-a5ac-360316ff5522" alt="bot-1"></td>
-<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/67976fe8-537e-4a21-a044-00a2fb5669c7" alt="bot-2"></td>
-<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/516885d1-8040-41aa-9e9f-63e866b51115" alt="bot-3"></td>
-<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/56b20c68-ec64-4cf6-8224-97af59d7baae" alt="bot-4"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/390824ae-f849-4763-ba49-44cbcaec1cea" alt="bot-1"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/1309dec4-ef24-41fd-9c5d-9020e6fffc86" alt="bot-2"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/17f73005-3e6a-48ed-a9ea-fc2e858be847" alt="bot-3"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/08a16e3c-80d3-4a25-91cf-b6259d077e67" alt="bot-4"></td>
 </tr>
 <tr>
-<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/daf9ef2b-6959-4690-b89e-2d2bd29cbf30" alt="bot-5"></td>
-<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/a2af08fa-c09c-4b77-8ee7-fa04fa8c5cc8" alt="bot-6"></td>
-<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/82bd3528-9c1d-433f-9f6a-eec2d17a0eb7" alt="bot-7"></td>
-<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/cc473ae4-8bc1-43c7-a40c-eaabda45569e" alt="bot-8"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/d9e5ca7a-c2d3-4c97-a9f2-be2c21900617" alt="bot-5"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/db0d68e3-20bb-4fa5-8491-56411abe1b2d" alt="bot-6"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/e9f0f167-5da1-40a5-8c92-5781de70d8af" alt="bot-7"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/2d7acc76-d3c8-4e9b-94ac-a8aaeeac5e11" alt="bot-8"></td>
 </tr>
 <tr>
-<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/1f3c90dc-eb2d-496a-9f04-4fe6b1314cc6" alt="bot-9"></td>
-<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/c1e0754a-cd3d-402d-9cbd-01248757d3f2" alt="bot-10"></td>
-<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/b9004aeb-21ad-46d2-96ef-f35feb66ac7a" alt="bot-11"></td>
-<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/6c1a7273-df60-4962-923c-32b75970ee19" alt="bot-12"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/a9770dc1-f036-4029-bacf-af4c692eb415" alt="bot-9"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/60697ac6-0fb1-4e78-84bd-b6ea5a9fd9bf" alt="bot-10"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/97747aac-4ecd-4f30-a011-997503441d2b" alt="bot-11"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/7157069e-3dd9-4e27-93f9-8580d7da4dfa" alt="bot-12"></td>
 </tr>
 <tr>
-<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/5b182cb8-94d1-48fa-b4fc-f126da11e3b3" alt="bot-13"></td>
-<td width="210"><img src="https://github.com/devancakra/Bot-Telegram-Berbasis-JavaScript/assets/54527592/1bc64775-925a-4c1b-8b1a-8d93c921b5f5" alt="bot-14"></td>
+<td width="210"><img src="" alt="bot-13"></td>
+<td width="210"><img src="" alt="bot-14"></td>
 <td width="210"><img src="" alt="bot-15"></td>
 <td width="210"><img src="" alt="bot-16"></td>
 </tr>
