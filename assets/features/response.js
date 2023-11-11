@@ -5,10 +5,8 @@ bot.action('me_status', ctx => ctx.answerCallbackQuery('Sistem sedang berjalan [
 // Respon jenis
 bot.action('me_jenis', ctx => { 
   // Data akses
-  let menu = 'jenis';
-  let user_id = ctx.from.id;
+  let menu = 'jenis'; let user_id = ctx.from.id; let user = ctx.from.username; 
   let name = ctx.from.first_name; if (ctx.from.last_name) { name += ' ' + ctx.from.last_name; }
-  let user = ctx.from.username; 
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+user_id+'\n👤 Nama : '+name;
@@ -38,10 +36,8 @@ bot.action('me_jenis', ctx => {
 // Respon ikan
 bot.action('jenis_ikan', ctx => { 
   // Data akses
-  let menu = 'jenis ikan';
-  let user_id = ctx.from.id;
+  let menu = 'jenis ikan'; let user_id = ctx.from.id; let user = ctx.from.username; 
   let name = ctx.from.first_name; if (ctx.from.last_name) { name += ' ' + ctx.from.last_name; }
-  let user = ctx.from.username; 
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+user_id+'\n👤 Nama : '+name;
@@ -63,10 +59,8 @@ bot.action('jenis_ikan', ctx => {
 // Respon burung
 bot.action('jenis_burung', ctx => { 
   // Data akses
-  let menu = 'jenis burung';
-  let user_id = ctx.from.id;
+  let menu = 'jenis burung'; let user_id = ctx.from.id; let user = ctx.from.username; 
   let name = ctx.from.first_name; if (ctx.from.last_name) { name += ' ' + ctx.from.last_name; }
-  let user = ctx.from.username; 
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+user_id+'\n👤 Nama : '+name;
@@ -88,10 +82,8 @@ bot.action('jenis_burung', ctx => {
 // Respon mamalia
 bot.action('jenis_mamalia', ctx => { 
   // Data akses
-  let menu = 'jenis mamalia';
-  let user_id = ctx.from.id;
+  let menu = 'jenis mamalia'; let user_id = ctx.from.id; let user = ctx.from.username; 
   let name = ctx.from.first_name; if (ctx.from.last_name) { name += ' ' + ctx.from.last_name; }
-  let user = ctx.from.username; 
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+user_id+'\n👤 Nama : '+name;
@@ -113,10 +105,8 @@ bot.action('jenis_mamalia', ctx => {
 // Respon reptil
 bot.action('jenis_reptil', ctx => { 
   // Data akses
-  let menu = 'jenis reptil';
-  let user_id = ctx.from.id;
+  let menu = 'jenis reptil'; let user_id = ctx.from.id; let user = ctx.from.username; 
   let name = ctx.from.first_name; if (ctx.from.last_name) { name += ' ' + ctx.from.last_name; }
-  let user = ctx.from.username; 
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+user_id+'\n👤 Nama : '+name;
@@ -138,10 +128,8 @@ bot.action('jenis_reptil', ctx => {
 // Respon amfibi
 bot.action('jenis_amfibi', ctx => { 
   // Data akses
-  let menu = 'jenis amfibi';
-  let user_id = ctx.from.id;
-  let name = ctx.from.first_name; if (ctx.from.last_name) { name += ' ' + ctx.from.last_name; }
-  let user = ctx.from.username; 
+  let menu = 'jenis amfibi'; let user_id = ctx.from.id; let user = ctx.from.username; 
+  let name = ctx.from.first_name; if (ctx.from.last_name) { name += ' ' + ctx.from.last_name; } 
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+user_id+'\n👤 Nama : '+name;
@@ -227,10 +215,8 @@ bot.action('me_pakan', (ctx, next) => {
 // Respon pakan amfibi
 bot.action('me_pakan', (ctx, next) => { 
   // Data akses
-  let menu = 'pakan';
-  let user_id = ctx.from.id;
+  let menu = 'pakan'; let user_id = ctx.from.id; let user = ctx.from.username; 
   let name = ctx.from.first_name; if (ctx.from.last_name) { name += ' ' + ctx.from.last_name; }
-  let user = ctx.from.username; 
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+user_id+'\n👤 Nama : '+name;
@@ -319,10 +305,8 @@ bot.action('me_habitat', (ctx, next) => {
 // Respon habitat amfibi
 bot.action('me_habitat', ctx => { 
   // Data akses
-  let menu = 'habitat';
-  let user_id = ctx.from.id;
+  let menu = 'habitat'; let user_id = ctx.from.id; let user = ctx.from.username; 
   let name = ctx.from.first_name; if (ctx.from.last_name) { name += ' ' + ctx.from.last_name; }
-  let user = ctx.from.username; 
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+user_id+'\n👤 Nama : '+name;
@@ -347,10 +331,8 @@ bot.action('me_habitat', ctx => {
 // Respon kesehatan
 bot.action('me_kesehatan', ctx => { 
   // Data akses
-  let menu = 'kesehatan';
-  let user_id = ctx.from.id;
+  let menu = 'kesehatan'; let user_id = ctx.from.id; let user = ctx.from.username; 
   let name = ctx.from.first_name; if (ctx.from.last_name) { name += ' ' + ctx.from.last_name; }
-  let user = ctx.from.username; 
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+user_id+'\n👤 Nama : '+name;
@@ -380,10 +362,8 @@ bot.action('me_kesehatan', ctx => {
 // Kesehatan ikan
 bot.action('sehat_ikan', ctx => {
   // Data akses
-  let menu = 'kesehatan ikan';
-  let user_id = ctx.from.id;
+  let menu = 'kesehatan ikan'; let user_id = ctx.from.id; let user = ctx.from.username; 
   let name = ctx.from.first_name; if (ctx.from.last_name) { name += ' ' + ctx.from.last_name; }
-  let user = ctx.from.username; 
 
   // Notifikasi pengakses
   let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+user_id+'\n👤 Nama : '+name;
@@ -403,16 +383,92 @@ bot.action('sehat_ikan', ctx => {
 
 
 // Kesehatan burung
-bot.action('sehat_burung', ctx => ctx.replyWithHTML('⚠️ Sistem sedang dalam perbaikan...'));
+bot.action('sehat_burung', ctx => {
+  // Data akses
+  let menu = 'kesehatan burung'; let user_id = ctx.from.id; let user = ctx.from.username; 
+  let name = ctx.from.first_name; if (ctx.from.last_name) { name += ' ' + ctx.from.last_name; }
+
+  // Notifikasi pengakses
+  let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+user_id+'\n👤 Nama : '+name;
+  pvmsg += '\n🚹 Username : @'+user+'\n⏰ Date : '+waktu_lengkap+'\n📁 Akses menu : '+menu;
+
+  // Pesan
+  let msg ='⚠️ Sistem sedang dalam perbaikan...';
+
+  // Custom keyboard
+  custom_Keyboard = [
+    ['↩️ Menu Kesehatan']
+  ];
+
+  // Output yang dikirim oleh bot
+  ctx.replyWithHTML(msg) & ctx.tg.sendMessage(admin_bot, pvmsg,{ reply_markup: markup.keyboard(custom_Keyboard).resize() });
+});
 
 
 // Kesehatan mamalia
-bot.action('sehat_mamalia', ctx => ctx.replyWithHTML('⚠️ Sistem sedang dalam perbaikan...'));
+bot.action('sehat_mamalia', ctx => { 
+  // Data akses
+  let menu = 'kesehatan mamalia'; let user_id = ctx.from.id; let user = ctx.from.username; 
+  let name = ctx.from.first_name; if (ctx.from.last_name) { name += ' ' + ctx.from.last_name; }
+
+  // Notifikasi pengakses
+  let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+user_id+'\n👤 Nama : '+name;
+  pvmsg += '\n🚹 Username : @'+user+'\n⏰ Date : '+waktu_lengkap+'\n📁 Akses menu : '+menu;
+
+  // Pesan
+  let msg ='⚠️ Sistem sedang dalam perbaikan...';
+
+  // Custom keyboard
+  custom_Keyboard = [
+    ['↩️ Menu Kesehatan']
+  ];
+
+  // Output yang dikirim oleh bot
+  ctx.replyWithHTML(msg) & ctx.tg.sendMessage(admin_bot, pvmsg,{ reply_markup: markup.keyboard(custom_Keyboard).resize() });
+});
 
 
 // Kesehatan reptil
-bot.action('sehat_reptil', ctx => ctx.replyWithHTML('⚠️ Sistem sedang dalam perbaikan...'));
+bot.action('sehat_reptil', ctx => { 
+  // Data akses
+  let menu = 'kesehatan reptil'; let user_id = ctx.from.id; let user = ctx.from.username; 
+  let name = ctx.from.first_name; if (ctx.from.last_name) { name += ' ' + ctx.from.last_name; }
+
+  // Notifikasi pengakses
+  let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+user_id+'\n👤 Nama : '+name;
+  pvmsg += '\n🚹 Username : @'+user+'\n⏰ Date : '+waktu_lengkap+'\n📁 Akses menu : '+menu;
+
+  // Pesan
+  let msg ='⚠️ Sistem sedang dalam perbaikan...';
+
+  // Custom keyboard
+  custom_Keyboard = [
+    ['↩️ Menu Kesehatan']
+  ];
+
+  // Output yang dikirim oleh bot
+  ctx.replyWithHTML(msg) & ctx.tg.sendMessage(admin_bot, pvmsg,{ reply_markup: markup.keyboard(custom_Keyboard).resize() });
+});
 
 
 // Kesehatan amfibi
-bot.action('sehat_amfibi', ctx => ctx.replyWithHTML('⚠️ Sistem sedang dalam perbaikan...'));
+bot.action('sehat_amfibi', ctx => { 
+  // Data akses
+  let menu = 'kesehatan amfibi'; let user_id = ctx.from.id; let user = ctx.from.username; 
+  let name = ctx.from.first_name; if (ctx.from.last_name) { name += ' ' + ctx.from.last_name; }
+
+  // Notifikasi pengakses
+  let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+user_id+'\n👤 Nama : '+name;
+  pvmsg += '\n🚹 Username : @'+user+'\n⏰ Date : '+waktu_lengkap+'\n📁 Akses menu : '+menu;
+
+  // Pesan
+  let msg ='⚠️ Sistem sedang dalam perbaikan...';
+
+  // Custom keyboard
+  custom_Keyboard = [
+    ['↩️ Menu Kesehatan']
+  ];
+
+  // Output yang dikirim oleh bot
+  ctx.replyWithHTML(msg) & ctx.tg.sendMessage(admin_bot, pvmsg,{ reply_markup: markup.keyboard(custom_Keyboard).resize() });
+});
