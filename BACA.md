@@ -90,25 +90,19 @@ ChatBot berbasis Telegram ini dibangun di atas platform ``` Google App Scripts `
 <td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/390824ae-f849-4763-ba49-44cbcaec1cea" alt="bot-1"></td>
 <td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/17f73005-3e6a-48ed-a9ea-fc2e858be847" alt="bot-2"></td>
 <td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/e9f0f167-5da1-40a5-8c92-5781de70d8af" alt="bot-3"></td>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/608c9eeb-33eb-44c7-a326-3ea404d1bb43" alt="bot-4"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/150734e6-353c-4672-b646-0b50bfd82341" alt="bot-4"></td>
 </tr>
 <tr>
 <td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/97747aac-4ecd-4f30-a011-997503441d2b" alt="bot-5"></td>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/48936df6-13d3-48c4-969f-93eca3af66ac" alt="bot-6"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/c1cd6313-c7ce-43d6-aa73-d65933b04590" alt="bot-6"></td>
 <td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/e13e90a6-e8e2-43b4-9181-61f7adff7248" alt="bot-7"></td>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/4ab69884-4216-470f-93a0-84d7bd0a51a0" alt="bot-8"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/9ba07dfc-96d9-4885-974d-92545c6532c7" alt="bot-8"></td>
 </tr>
 <tr>
-<td width="210"><img src="" alt="bot-9"></td>
-<td width="210"><img src="" alt="bot-10"></td>
-<td width="210"><img src="" alt="bot-11"></td>
-<td width="210"><img src="" alt="bot-12"></td>
-</tr>
-<tr>
-<td width="210"><img src="" alt="bot-13"></td>
-<td width="210"><img src="" alt="bot-14"></td>
-<td width="210"><img src="" alt="bot-15"></td>
-<td width="210"><img src="" alt="bot-16"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/d75dd770-54da-49fa-adde-98f993d2dfa4" alt="bot-9"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/e2c4c8fe-4700-4a21-8435-85d345c88518" alt="bot-10"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/5b94ecf1-d5a4-425a-8076-34fbc848045c" alt="bot-11"></td>
+<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/dc8931f5-6e5a-4086-bb43-9e67a465daa7" alt="bot-12"></td>
 </tr>
 </table>
 
