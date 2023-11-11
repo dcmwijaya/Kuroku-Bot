@@ -342,3 +342,77 @@ bot.action('me_habitat', ctx => {
   // Output yang dikirim oleh bot
   ctx.replyWithPhoto(url_foto, {'caption': msg, 'parse_mode': 'HTML'}) & ctx.tg.sendMessage(admin_bot, pvmsg,{ reply_markup: markup.keyboard(custom_Keyboard).resize() });
 });
+
+
+// Respon kesehatan
+bot.action('me_kesehatan', ctx => { 
+  // Data akses
+  let menu = 'kesehatan';
+  let user_id = ctx.from.id;
+  let name = ctx.from.first_name; if (ctx.from.last_name) { name += ' ' + ctx.from.last_name; }
+  let user = ctx.from.username; 
+
+  // Notifikasi pengakses
+  let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+user_id+'\n👤 Nama : '+name;
+  pvmsg += '\n🚹 Username : @'+user+'\n⏰ Date : '+waktu_lengkap+'\n📁 Akses menu : '+menu;
+  
+  // Pesan
+  let msg = '💊 Kesehatan\n\nKesehatan hewan yang dimaksud ini berdasarkan pada kelas.\n\nSilakan pilih jenis hewan peliharaan anda dibawah ini untuk mendapatkan informasi lebih lanjut ⬇️⬇️⬇️⬇️⬇️';
+
+  // Inline keyboard
+  inline_Keyboard = [
+    [button.text('🐟 Ikan', 'sehat_ikan'), button.text('🕊️ Burung', 'sehat_burung')],
+    [button.text('🐇 Mamalia', 'sehat_mamalia'), button.text('🐊 Reptil', 'sehat_reptil')],
+    [button.text('🐸 Amfibi', 'sehat_amfibi')]
+  ];
+
+  // Custom keyboard
+  custom_Keyboard = [
+    ['↩️ Menu Utama']
+  ];
+
+  // Output yang dikirim oleh bot
+  ctx.replyWithHTML(msg,{ reply_markup: markup.inlineKeyboard(inline_Keyboard) }) 
+  & ctx.tg.sendMessage(admin_bot, pvmsg,{ reply_markup: markup.keyboard(custom_Keyboard).resize() });
+});
+
+
+// Kesehatan ikan
+bot.action('sehat_ikan', ctx => {
+  // Data akses
+  let menu = 'kesehatan ikan';
+  let user_id = ctx.from.id;
+  let name = ctx.from.first_name; if (ctx.from.last_name) { name += ' ' + ctx.from.last_name; }
+  let user = ctx.from.username; 
+
+  // Notifikasi pengakses
+  let pvmsg = '⚠️ Ada yang mengakses bot anda ❗\n\n🆔 ID : '+user_id+'\n👤 Nama : '+name;
+  pvmsg += '\n🚹 Username : @'+user+'\n⏰ Date : '+waktu_lengkap+'\n📁 Akses menu : '+menu;
+
+  // Pesan
+  let msg = '------------------------------------------------------------\n💊 Kesehatan: 🐟 Ikan (Pisces)\n------------------------------------------------------------\n\nTips-tips yang dapat anda gunakan untuk menjaga kesehatan hewan kelas ikan, antara lain :\n\n\n<b>• Menyesuaikan jenis dan habitat</b>\n\nJenis ikan sangat beragam, misalnya ikan air tawar, ikan air asin, dan ikan air payau. Ikan air tawar adalah ikan yang hidup di air tawar seperti di sungai, rawa, kolam, dan danau. Sedangkan ikan air asin adalah ikan yang hidup di air laut. Kemudian ikan air payau adalah ikan yang hidup di air laut dan air tawar. Dalam hal ini, ketidaksesuaian habitat juga akan berpengaruh terhadap psikis ikan, bahkan pada kondisi terburuk dapat mengakibatkan kematian pada ikan. Oleh karena itu, anda harus mengetahui terlebih dahulu jenis ikan apa yang anda pelihara dan bagaimana habitatnya. Anda juga harus membatasi jumlah ikan dan meningkatkan harmonisasi ikan, agar jumlah ikan tidak melebihi kapasitas dan mencegah adanya perkelahian antar jenis ikan hias yang memang tidak dapat hidup berdampingan.\n\n\n<b>• Memilih media yang tepat</b>\n\nMedia ini sangat beragam, umumnya masyarakat lebih menyukai akuarium. Sebaiknya pilihlah ukuran media yang sesuai dengan kebutuhan ikan hias di rumah. Kemudian anda dapat menambahkan beberapa komponen yang menyerupai habitat alami ikan yang anda pelihara, misalnya tanaman air. Pastikan komponen tambahan yang anda pakai tidak terkontaminasi dengan zat kimia. Anda juga dapat menambahkan filter dan pompa agar sirkulasi air tetap terjaga. Media yang anda gunakan untuk merawat ikan pastikan berada pada lokasi dengan pencahayaan yang cukup.\n\n\n<b>• Memantau kondisi air</b>\n\nJenis air di rumah beberapa memiliki sifat asam yang berbeda. Penting untuk memastikan kadar pH yang tepat agar ikan dapat hidup dengan baik. Anda bisa membeli alat untuk menguji pH air. Ikan hias biasanya dapat hidup sehat dengan tingkat pH yang berada di antara 6,8 hingga 7,5. Kadar pH tersebut membuat ikan hias dapat hidup dengan nyaman sehingga terhindar dari berbagai gangguan kesehatan. Selain kadar pH, jangan lupa untuk memastikan suhu air berada di suhu normal. Ikan hias dapat hidup nyaman dengan suhu di antara 22 – 27 derajat Celcius. Lalu pastikan air yang anda gunakan tidak terkontaminasi dengan zat kimia.\n\n\n<b>• Memberikan pakan</b>\n\nSebaiknya cari tahu jenis pakan apa yang dikonsumsi oleh ikan hias anda. Berikan pakan sesuai dengan jenis ikan. Selain itu, hindari memberikan pakan ikan terlalu banyak. Kondisi ini membuat media yang dipakai untuk merawat ikan menjadi lebih cepat kotor dan dapat memicu berbagai penyakit pada ikan, salah satunya infeksi jamur dan bakteri. Jangan jadikan ukuran media sebagai acuan banyaknya pakan yang diberikan, namun pastikan sesuai dengan jumlah ikan yang ada.\n\n\n<b>• Memberikan treatment</b>\n\nPerawatan ini meliputi pembersihan komponen, pompa, filter; penggantian air; dan pemberian obat atau suplemen untuk ikan yang mengalami gejala tidak normal atau terindikasi sakit. Hal ini perlu dilakukan secara berkala dan menyesuaikan kondisi yang ada.\n\n\n<b>▶️ Sumber: <a href="https://www.youtube.com/@KGTropicals">@KGTropicals</a></b>\n------------------------------------------------------------\nInformasi lebih lanjut dapat anda akses pada bagian ini: <strong><a href="https://www.youtube.com/watch?v=9IkwXIMFXMY">Klik Disini</a></strong>';
+
+  // Custom keyboard
+  custom_Keyboard = [
+    ['↩️ Menu Kesehatan']
+  ];
+
+  // Output yang dikirim oleh bot
+  ctx.replyWithHTML(msg) & ctx.tg.sendMessage(admin_bot, pvmsg,{ reply_markup: markup.keyboard(custom_Keyboard).resize() });
+});
+
+
+// Kesehatan burung
+bot.action('sehat_burung', ctx => ctx.replyWithHTML('⚠️ Sistem sedang dalam perbaikan...'));
+
+
+// Kesehatan mamalia
+bot.action('sehat_mamalia', ctx => ctx.replyWithHTML('⚠️ Sistem sedang dalam perbaikan...'));
+
+
+// Kesehatan reptil
+bot.action('sehat_reptil', ctx => ctx.replyWithHTML('⚠️ Sistem sedang dalam perbaikan...'));
+
+
+// Kesehatan amfibi
+bot.action('sehat_amfibi', ctx => ctx.replyWithHTML('⚠️ Sistem sedang dalam perbaikan...'));
