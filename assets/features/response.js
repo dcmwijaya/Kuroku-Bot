@@ -393,7 +393,7 @@ bot.action('sehat_burung', ctx => {
   pvmsg += '\n🚹 Username : @'+user+'\n⏰ Date : '+waktu_lengkap+'\n📁 Akses menu : '+menu;
 
   // Pesan
-  let msg ='⚠️ Sistem sedang dalam perbaikan...';
+  let msg ='------------------------------------------------------------\n💊 Kesehatan: 🕊️ Burung\n------------------------------------------------------------\n\nTips-tips yang dapat anda gunakan untuk menjaga kesehatan hewan kelas burung, antara lain :\n\n\n<b>• Tips 1</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>• Tips 2</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>• Tips 3</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>• Tips 4</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>• Tips 5</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>▶️ Sumber: <a href="https://www.youtube.com/@FlyingFids">@FlyingFids</a></b>\n------------------------------------------------------------\nInformasi lebih lanjut dapat anda akses pada bagian ini: <strong><a href="https://www.youtube.com/watch?v=IPG_Obzl2cw">Klik Disini</a></strong>';
 
   // Custom keyboard
   custom_Keyboard = [
@@ -416,7 +416,7 @@ bot.action('sehat_mamalia', ctx => {
   pvmsg += '\n🚹 Username : @'+user+'\n⏰ Date : '+waktu_lengkap+'\n📁 Akses menu : '+menu;
 
   // Pesan
-  let msg ='⚠️ Sistem sedang dalam perbaikan...';
+  let msg ='------------------------------------------------------------\n💊 Kesehatan: 🐇 Mamalia\n------------------------------------------------------------\n\nTips-tips yang dapat anda gunakan untuk menjaga kesehatan hewan kelas mamalia, antara lain :\n\n\n<b>• Tips 1</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>• Tips 2</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>• Tips 3</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>• Tips 4</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>• Tips 5</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>▶️ Sumber: <a href="https://www.youtube.com/@BRIGHTSIDEOFFICIAL">@BRIGHTSIDEOFFICIAL</a></b>\n------------------------------------------------------------\nInformasi lebih lanjut dapat anda akses pada bagian ini: <strong><a href="https://www.youtube.com/watch?v=kUBIPULlKMk">Klik Disini</a></strong>';
 
   // Custom keyboard
   custom_Keyboard = [
@@ -439,7 +439,7 @@ bot.action('sehat_reptil', ctx => {
   pvmsg += '\n🚹 Username : @'+user+'\n⏰ Date : '+waktu_lengkap+'\n📁 Akses menu : '+menu;
 
   // Pesan
-  let msg ='⚠️ Sistem sedang dalam perbaikan...';
+  let msg ='------------------------------------------------------------\n💊 Kesehatan: 🐊 Reptil\n------------------------------------------------------------\n\nTips-tips yang dapat anda gunakan untuk menjaga kesehatan hewan kelas reptil, antara lain :\n\n\n<b>• Tips 1</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>• Tips 2</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>• Tips 3</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>• Tips 4</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>• Tips 5</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>▶️ Sumber: <a href="https://www.youtube.com/@animalplanet">@animalplanet</a></b>\n------------------------------------------------------------\nInformasi lebih lanjut dapat anda akses pada bagian ini: <strong><a href="https://www.youtube.com/watch?v=VTyXeRS1hss&t=2s">Klik Disini</a></strong>';
 
   // Custom keyboard
   custom_Keyboard = [
@@ -462,7 +462,7 @@ bot.action('sehat_amfibi', ctx => {
   pvmsg += '\n🚹 Username : @'+user+'\n⏰ Date : '+waktu_lengkap+'\n📁 Akses menu : '+menu;
 
   // Pesan
-  let msg ='⚠️ Sistem sedang dalam perbaikan...';
+  let msg ='------------------------------------------------------------\n💊 Kesehatan: 🐸 Amfibi\n------------------------------------------------------------\n\nTips-tips yang dapat anda gunakan untuk menjaga kesehatan hewan kelas amfibi, antara lain :\n\n\n<b>• Tips 1</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>• Tips 2</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>• Tips 3</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>• Tips 4</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>• Tips 5</b>\n\n⚠️ Sistem sedang dalam perbaikan.\n\n\n<b>▶️ Sumber: <a href="https://www.youtube.com/@monkeysee">@monkeysee</a></b>\n------------------------------------------------------------\nInformasi lebih lanjut dapat anda akses pada bagian ini: <strong><a href="https://www.youtube.com/watch?v=33wINBQS-I0">Klik Disini</a></strong>';
 
   // Custom keyboard
   custom_Keyboard = [
