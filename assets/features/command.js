@@ -55,9 +55,9 @@ bot.on('message', ctx => {
   else if (cmd === '↩️ Menu Kesehatan') { // Menu kesehatan
     // Keterangan menu
     let menu = 'kesehatan'; pvmsg += '\n📁 Akses menu : '+menu;
-
+  
     // Pesan
-    let msg = '🐈 Jenis Hewan\n\nJenis hewan yang dimaksud ini berdasarkan pada kelas.\n\nSilakan pilih jenis hewan peliharaan anda dibawah ini untuk mendapatkan informasi lebih lanjut ⬇️⬇️⬇️⬇️⬇️';
+    let msg = '💊 Kesehatan\n\nKesehatan hewan yang dimaksud ini berdasarkan pada kelas.\n\nSilakan pilih jenis hewan peliharaan anda dibawah ini untuk mendapatkan informasi lebih lanjut ⬇️⬇️⬇️⬇️⬇️';
 
     // Inline keyboard
     inline_Keyboard = [
