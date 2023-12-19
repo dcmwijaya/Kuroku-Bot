@@ -58,7 +58,7 @@ This Telegram-based ChatBot is built on the ``` Google App Scripts ``` platform 
    
 10. Review permissions -> Select ``` your email ``` -> Continue -> Open ``` your bot project (not secure) ``` -> Allow.
 
-11. Copy the ``` web app URL link ``` -> Paste the link into the ``` let url ``` section in ``` index.gs ``` as follows:
+11. Copy the ``` web app URL link ``` -> Paste the link into the ``` let url ``` section in ``` config.gs ``` as follows:
 
     ```bash
     let url = 'https://api.telegram.org/bot1164101112:AA1BC1DI/setwebhook?url=https://script.google.com/macros/s/AKfycbyKodePanjang/exec';
