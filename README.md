@@ -4,12 +4,12 @@
 ![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=flat&logo=javascript&logoColor=%23F7DF1E)
 
 # Kuroku-Bot
-<strong>UPN Veteran Jatim Website Programming Assignment</strong><br>
+<strong>UPN Veteran Jatim Website Programming Assignment</strong><br><br>
 This Telegram-based ChatBot is built on the ``` Google App Scripts ``` platform using ``` Javascript ``` as the programming language. The framework used is <b><a href="https://lumpia.js.org/">Lumpia.js</a></b>. The purpose of making this bot is to help someone understand more about the type, food, habitat and how to maintain the health of their pets.
 
 <br>
 
-## Features / Framework / Tools
+## Project Requirements
 | Part | Description |
 | --- | --- |
 | Features | Custom Keyboard, Inline Keyboard, Error Handling, User Log Activity, Markdown Message |
