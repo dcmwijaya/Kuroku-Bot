@@ -7,7 +7,7 @@
 <strong>Tugas Pemrograman Website UPN Veteran Jatim</strong><br><br>
 ChatBot berbasis Telegram ini dibangun di atas platform ``` Google App Scripts ``` dengan menggunakan bahasa pemrograman ``` Javascript ```. Framework yang digunakan adalah <b><a href="https://lumpia.js.org/">Lumpia.js</a></b>. Tujuan dibuatnya bot ini adalah untuk membantu seseorang memahami lebih jauh terkait jenis, pakan, habitat dan cara menjaga kesehatan dari hewan peliharaannya.
 
-<br>
+<br><br>
 
 ## Kebutuhan Proyek
 | Bagian | Deskripsi |
@@ -17,7 +17,7 @@ ChatBot berbasis Telegram ini dibangun di atas platform ``` Google App Scripts `
 | Kerangka Kerja | Lumpia.js |
 | Kode | JavaScript |
 
-<br>
+<br><br>
 
 ## Kemampuan Bot
 1. Terdapat pilihan menu yang dapat diakses dengan mengklik atau mengetik.
@@ -28,7 +28,7 @@ ChatBot berbasis Telegram ini dibangun di atas platform ``` Google App Scripts `
 
 4. Tampilan yang menarik dan mendidik.
 
-<br>
+<br><br>
 
 ## Memulai
 1. Unduh repositori ini.
@@ -70,7 +70,7 @@ ChatBot berbasis Telegram ini dibangun di atas platform ``` Google App Scripts `
    
 13. Selamat menikmati [Selesai].
 
-<br>
+<br><br>
 
 ## Pengingat
 • Perhatikan penulisan sintaks yang baik dan benar dalam JavaScript karena hal ini sangat mempengaruhi bot yang dikembangkan.
@@ -79,7 +79,7 @@ ChatBot berbasis Telegram ini dibangun di atas platform ``` Google App Scripts `
 
 • Jika Anda menemukan bahwa proyek tidak bekerja seperti yang Anda harapkan, maka ada dua kemungkinan: kesalahan ada pada ``` sintaks ``` atau kesalahan ada pada ``` library yang sudah kadaluarsa ```, sehingga hal ini dapat menyebabkan Anda harus mencari jalan keluar lain.
 
-<br>
+<br><br>
 
 ## Sorotan
 <table>
@@ -106,17 +106,22 @@ ChatBot berbasis Telegram ini dibangun di atas platform ``` Google App Scripts `
 </tr>
 </table>
 
-<br>
+<br><br>
 
 ## Demonstrasi Aplikasi
 Via Telegram: <a href="http://t.me/kuroku_bot">@kuroku_bot</a>
 
-<br>
+<br><br>
+
+## Apresiasi
+Jika anda merasa karya ini bermanfaat, dukunglah karya ini sebagai bentuk apresiasi kepada penulis dengan cara mengeklik tombol ``` ⭐Bintang ```.
+
+<br><br>
 
 ## Penafian
 Aplikasi ini dibuat dengan menyertakan sumber-sumber dari pihak ketiga. Pihak ketiga di sini adalah penyedia layanan, yang layanannya berupa pustaka, kerangka kerja, dan lain-lain. Saya ucapkan terima kasih banyak atas layanannya. Telah terbukti sangat membantu dan dapat diimplementasikan.
 
-<br>
+<br><br>
 
 ## LISENSI
 LISENSI MIT - Hak Cipta © 2023 - Devan Cakra Mudra Wijaya
