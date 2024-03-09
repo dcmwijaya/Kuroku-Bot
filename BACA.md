@@ -87,11 +87,15 @@ ChatBot berbasis Telegram ini dibangun di atas platform ``` Google App Scripts `
 <br><br>
 
 ## Pengingat
+<table><tr><td width="840">
+
 • Perhatikan penulisan sintaks yang baik dan benar dalam JavaScript karena hal ini sangat mempengaruhi bot yang dikembangkan.
 
 • Pastikan PC/Laptop Anda terhubung ke internet.
 
 • Jika Anda menemukan bahwa proyek tidak bekerja seperti yang Anda harapkan, maka ada dua kemungkinan: kesalahan ada pada ``` sintaks ``` atau kesalahan ada pada ``` library yang sudah kadaluarsa ```, sehingga hal ini dapat menyebabkan Anda harus mencari jalan keluar lain.
+
+</td></tr></table>
 
 <br><br>
 
