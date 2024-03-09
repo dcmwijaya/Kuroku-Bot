@@ -20,53 +20,67 @@ ChatBot berbasis Telegram ini dibangun di atas platform ``` Google App Scripts `
 <br><br>
 
 ## Kemampuan Bot
-1. Terdapat pilihan menu yang dapat diakses dengan mengklik atau mengetik.
+1. Terdapat pilihan menu yang dapat diakses dengan mengklik atau mengetik.<br><br>
 
-2. Kemampuan lain dari bot ini adalah dapat memberikan notifikasi kepada pemilik bot bahwa ada seseorang yang mengakses menu tertentu, sehingga pemilik bot dapat memantau pergerakan yang terjadi secara langsung.
+2. Kemampuan lain dari bot ini adalah dapat memberikan notifikasi kepada pemilik bot bahwa ada seseorang yang mengakses menu tertentu, sehingga pemilik bot dapat memantau pergerakan yang terjadi secara langsung.<br><br>
 
-3. Terdapat kontrol masalah dalam sistem.
+3. Terdapat kontrol masalah dalam sistem.<br><br>
 
 4. Tampilan yang menarik dan mendidik.
 
 <br><br>
 
 ## Memulai
-1. Unduh repositori ini.
+1. Unduh repositori ini.<br><br>
 
-2. Buat proyek baru terlebih dahulu di platform: ``` Google apps script ```.
+2. Buat proyek baru terlebih dahulu di platform: ``` Google apps script ```.<br><br>
   
-3. Tambahkan ``` file baru ``` pada platform ``` Google apps script ``` dan terkait ``` nama file ``` atau ``` jumlah file ``` boleh beda sesuai kreasi masing-masing, sebab hal ini tidak akan memengaruhi kinerja sistem bot -> lalu jangan lupa untuk klik ``` Simpan ```.
+3. Tambahkan ``` file baru ``` pada platform ``` Google apps script ``` dan terkait ``` nama file ``` atau ``` jumlah file ``` boleh beda sesuai kreasi masing-masing, sebab hal ini tidak akan memengaruhi kinerja sistem bot -> lalu jangan lupa untuk klik ``` Simpan ```.<br><br>
   
-4. Ekstrak ``` Kuroku-Bot ``` -> Buka seluruh file yang berekstensi ``` Javascript (.js) ``` -> Salin & tempelkan seluruh isinya ke dalam file yang telah tersedia di platform ``` Google apps script ```.
+4. Ekstrak ``` Kuroku-Bot ``` -> Buka seluruh file yang berekstensi ``` Javascript (.js) ``` -> Salin & tempelkan seluruh isinya ke dalam file yang telah tersedia di platform ``` Google apps script ```.<br><br>
 
 5. Masukkan ``` ID Pustaka ``` di bagian ``` Library ``` :
-   ```bash
+
+   <table><tr><td width="810">
+     
+   ```
    1Yo6vQRwjG5Gl9jeEF0g2tBTUa0XN5MyT4G_HeDpRr9DvabxhRcSdhPNj
    ```
 
-6. Tambahkan ``` pustaka tersebut ``` -> Selalu pilih ``` versi pustaka yang tertinggi ``` -> Simpan.
+   </td></tr></table><br>
+
+6. Tambahkan ``` pustaka tersebut ``` -> Selalu pilih ``` versi pustaka yang tertinggi ``` -> Simpan.<br><br>
   
 7. Tempelkan ``` Api bot token telegram ``` yang telah anda peroleh dari ``` @BotFather ``` seperti berikut ini :
-   ```bash
+
+   <table><tr><td width="810">
+     
+   ```js
    // Token API
    const token = '1264610746:AAF3HuLDWCPKIGcinRY5Uf-qTpsWWw_jN0K';
    ```
 
-8. Klik ``` Terapkan ``` -> ``` Deployment baru ``` -> Pilih jenis: ``` Aplikasi Web ```.
+   </td></tr></table><br>
+
+8. Klik ``` Terapkan ``` -> ``` Deployment baru ``` -> Pilih jenis: ``` Aplikasi Web ```.<br><br>
    
-9. Isi ``` Deskripsi ``` -> Pada bagian ``` Akses ```, silahkan pilih bagian: ``` siapa saja dapat mengakses ``` -> Terapkan.
+9. Isi ``` Deskripsi ``` -> Pada bagian ``` Akses ```, silahkan pilih bagian: ``` siapa saja dapat mengakses ``` -> Terapkan.<br><br>
    
-10. Meninjau izin -> Pilih ``` email anda ``` -> Lanjutkan -> Buka ``` proyek bot anda (tidak aman) ``` -> Izinkan.
+10. Meninjau izin -> Pilih ``` email anda ``` -> Lanjutkan -> Buka ``` proyek bot anda (tidak aman) ``` -> Izinkan.<br><br>
 
 11. Salin ``` link web app URL ``` -> Tempelkan link tersebut pada bagian ``` let url ``` yang ada di ``` config.gs ``` seperti berikut :
 
-    ```bash
+    <table><tr><td width="810">
+
+    ```js
     let url = 'https://api.telegram.org/bot1164101112:AA1BC1DI/setwebhook?url=https://script.google.com/macros/s/AKfycbyKodePanjang/exec';
     ```
 
+    </td></tr></table><br>
+
 12. Pastikan fungsi yang sedang dijalankan adalah ``` setWebHook ``` -> Klik ``` Jalankan ```.
 
-    Akan dianggap berhasil jika ``` log eksekusi ``` bertuliskan: ``` Info {ok=true, description=Webhook is already set, result=true} ```.
+    Akan dianggap berhasil jika ``` log eksekusi ``` bertuliskan: ``` Info {ok=true, description=Webhook is already set, result=true} ```.<br><br>
    
 13. Selamat menikmati [Selesai].
 
