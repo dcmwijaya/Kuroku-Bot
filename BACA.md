@@ -43,7 +43,7 @@ ChatBot berbasis Telegram ini dibangun di atas platform ``` Google App Scripts `
 
    <table><tr><td width="810">
      
-   ```
+   ```js
    1Yo6vQRwjG5Gl9jeEF0g2tBTUa0XN5MyT4G_HeDpRr9DvabxhRcSdhPNj
    ```
 
