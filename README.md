@@ -43,7 +43,7 @@ This Telegram-based ChatBot is built on the ``` Google App Scripts ``` platform 
 
    <table><tr><td width="810">
      
-   ```
+   ```js
    1Yo6vQRwjG5Gl9jeEF0g2tBTUa0XN5MyT4G_HeDpRr9DvabxhRcSdhPNj
    ```
 
