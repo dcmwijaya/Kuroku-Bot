@@ -40,19 +40,27 @@ This Telegram-based ChatBot is built on the ``` Google App Scripts ``` platform 
 4. Extract ``` Kuroku-Bot ``` -> Open the entire file with the extension ``` Javascript (.js) ``` -> Copy & paste the entire contents into the file available on the platform ``` Google apps script ```.<br><br>
 
 5. Enter the ``` Library ID ``` in the ``` Library ``` section:
+
+   <table><tr><td width="810">
+     
    ```
    1Yo6vQRwjG5Gl9jeEF0g2tBTUa0XN5MyT4G_HeDpRr9DvabxhRcSdhPNj
    ```
-   <br>
+
+   </td></tr></table><br>
 
 6. Add ``` the library ``` -> Always select ``` the highest version of the library ``` -> Save.<br><br>
   
 7. Paste the ``` API bot token telegram ``` that you have obtained from ``` @BotFather ``` as follows :
+
+   <table><tr><td width="810">
+     
    ```js
    // Token API
    const token = '1264610746:AAF3HuLDWCPKIGcinRY5Uf-qTpsWWw_jN0K';
    ```
-   <br>
+
+   </td></tr></table><br>
 
 8. Click ``` Apply ``` -> ``` New deployment ``` -> Select type: ``` Web Application ```.<br><br>
    
@@ -62,10 +70,13 @@ This Telegram-based ChatBot is built on the ``` Google App Scripts ``` platform 
 
 11. Copy the ``` web app URL link ``` -> Paste the link into the ``` let url ``` section in ``` config.gs ``` as follows:
 
+    <table><tr><td width="810">
+
     ```js
     let url = 'https://api.telegram.org/bot1164101112:AA1BC1DI/setwebhook?url=https://script.google.com/macros/s/AKfycbyKodePanjang/exec';
     ```
-    <br>
+
+    </td></tr></table><br>
 
 12. Make sure the function being executed is ``` setWebHook ``` -> Click ``` Run ```.
 
