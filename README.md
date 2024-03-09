@@ -7,7 +7,7 @@
 <strong>UPN Veteran Jatim Website Programming Assignment</strong><br><br>
 This Telegram-based ChatBot is built on the ``` Google App Scripts ``` platform using ``` Javascript ``` as the programming language. The framework used is <b><a href="https://lumpia.js.org/">Lumpia.js</a></b>. The purpose of making this bot is to help someone understand more about the type, food, habitat and how to maintain the health of their pets.
 
-<br>
+<br><br>
 
 ## Project Requirements
 | Part | Description |
@@ -17,69 +17,72 @@ This Telegram-based ChatBot is built on the ``` Google App Scripts ``` platform 
 | Framework | Lumpia.js |
 | Code | JavaScript |
 
-<br>
+<br><br>
 
 ## Bot Capabilities
-1. There are menu options that can be accessed by clicking or typing.
+1. There are menu options that can be accessed by clicking or typing.<br><br>
 
-2. Another ability of this bot is that it can provide notification to the bot owner that someone has accessed a certain menu, so that the bot owner can monitor the movements that occur directly.
+2. Another ability of this bot is that it can provide notification to the bot owner that someone has accessed a certain menu, so that the bot owner can monitor the movements that occur directly.<br><br>
 
-3. There is problem control in the system.
+3. There is problem control in the system.<br><br>
 
 4. Attractive and educational display.
 
-<br>
+<br><br>
 
 ## Get Started
-1. Download this repository.
+1. Download this repository.<br><br>
 
-2. Create a new project first on the platform: ``` Google apps script ```.
+2. Create a new project first on the platform: ``` Google apps script ```.<br><br>
   
-3. Add ``` new file ``` on the platform ``` Google apps script ``` and regarding ``` file name ``` or ``` number of files ``` can be different according to your own creation, because this will not affect the performance of the bot system -> then don't forget to click ``` Save ```.
+3. Add ``` new file ``` on the platform ``` Google apps script ``` and regarding ``` file name ``` or ``` number of files ``` can be different according to your own creation, because this will not affect the performance of the bot system -> then don't forget to click ``` Save ```.<br><br>
   
-4. Extract ``` Kuroku-Bot ``` -> Open the entire file with the extension ``` Javascript (.js) ``` -> Copy & paste the entire contents into the file available on the platform ``` Google apps script ```.
+4. Extract ``` Kuroku-Bot ``` -> Open the entire file with the extension ``` Javascript (.js) ``` -> Copy & paste the entire contents into the file available on the platform ``` Google apps script ```.<br><br>
 
 5. Enter the ``` Library ID ``` in the ``` Library ``` section:
    ```
    1Yo6vQRwjG5Gl9jeEF0g2tBTUa0XN5MyT4G_HeDpRr9DvabxhRcSdhPNj
    ```
+   <br>
 
-6. Add ``` the library ``` -> Always select ``` the highest version of the library ``` -> Save.
+6. Add ``` the library ``` -> Always select ``` the highest version of the library ``` -> Save.<br><br>
   
 7. Paste the ``` API bot token telegram ``` that you have obtained from ``` @BotFather ``` as follows :
    ```js
    // Token API
    const token = '1264610746:AAF3HuLDWCPKIGcinRY5Uf-qTpsWWw_jN0K';
    ```
+   <br>
 
-8. Click ``` Apply ``` -> ``` New deployment ``` -> Select type: ``` Web Application ```.
+8. Click ``` Apply ``` -> ``` New deployment ``` -> Select type: ``` Web Application ```.<br><br>
    
-9. Contents ``` Description ``` -> In the ``` Access ``` section, please select the section: ``` anyone can access ``` -> Apply.
+9. Contents ``` Description ``` -> In the ``` Access ``` section, please select the section: ``` anyone can access ``` -> Apply.<br><br>
    
-10. Review permissions -> Select ``` your email ``` -> Continue -> Open ``` your bot project (not secure) ``` -> Allow.
+10. Review permissions -> Select ``` your email ``` -> Continue -> Open ``` your bot project (not secure) ``` -> Allow.<br><br>
 
 11. Copy the ``` web app URL link ``` -> Paste the link into the ``` let url ``` section in ``` config.gs ``` as follows:
 
     ```js
     let url = 'https://api.telegram.org/bot1164101112:AA1BC1DI/setwebhook?url=https://script.google.com/macros/s/AKfycbyKodePanjang/exec';
     ```
+    <br>
 
 12. Make sure the function being executed is ``` setWebHook ``` -> Click ``` Run ```.
 
-    Will be considered successful if the ``` execution log ``` reads: ``` Info {ok=true, description=Webhook is already set, result=true} ```.
+    Will be considered successful if the ``` execution log ``` reads: ``` Info {ok=true, description=Webhook is already set, result=true} ```.<br><br>
    
 13. Enjoy [Done].
 
-<br>
+<br><br>
 
 ## Reminder
-• Pay attention to writing good and correct syntax in JavaScript because it greatly affects the bot that is developed.
+• Pay attention to writing good and correct syntax in JavaScript because it greatly affects the bot that is developed.<br><br>
 
-• Make sure your PC/Laptop is connected to the internet.
+• Make sure your PC/Laptop is connected to the internet.<br><br>
 
 • If you find that the project is not working as you expected, then there are two possibilities: either the error is in the ``` syntax ``` or the error is in an ``` outdated library ```, so this may cause you to have to find another way out.
 
-<br>
+<br><br>
 
 ## Highlights
 <table>
@@ -106,22 +109,22 @@ This Telegram-based ChatBot is built on the ``` Google App Scripts ``` platform 
 </tr>
 </table>
 
-<br>
+<br><br>
 
 ## Demonstration of Application
 Via Telegram: <a href="http://t.me/kuroku_bot">@kuroku_bot</a>
 
-<br>
+<br><br>
 
 ## Appreciation
 If you find this work useful, please support it as a token of appreciation to the author by clicking the ``` ⭐Star ``` button.
 
-<br>
+<br><br>
 
 ## Disclaimer
 This application has been created by including third-party sources. Third parties here are service providers, whose services are in the form of libraries, frameworks, and others. I thank you very much for the service. It has proven to be very helpful and implementable.
 
-<br>
+<br><br>
 
 ## LICENSE
 MIT License - Copyright © 2023 - Devan Cakra Mudra Wijaya
