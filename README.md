@@ -86,15 +86,6 @@ This Telegram-based ChatBot is built on the ``` Google App Scripts ``` platform 
 
 <br><br>
 
-## Reminder
-• Pay attention to writing good and correct syntax in JavaScript because it greatly affects the bot that is developed.<br><br>
-
-• Make sure your PC/Laptop is connected to the internet.<br><br>
-
-• If you find that the project is not working as you expected, then there are two possibilities: either the error is in the ``` syntax ``` or the error is in an ``` outdated library ```, so this may cause you to have to find another way out.
-
-<br><br>
-
 ## Highlights
 <table>
 <tr>
@@ -119,6 +110,19 @@ This Telegram-based ChatBot is built on the ``` Google App Scripts ``` platform 
 <td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/dc8931f5-6e5a-4086-bb43-9e67a465daa7" alt="bot-12"></td>
 </tr>
 </table>
+
+<br><br>
+
+## Reminder
+<table><tr><td width="840">
+  
+• Pay attention to writing good and correct syntax in JavaScript because it greatly affects the bot that is developed.<br><br>
+
+• Make sure your PC/Laptop is connected to the internet.<br><br>
+
+• If you find that the project is not working as you expected, then there are two possibilities: either the error is in the ``` syntax ``` or the error is in an ``` outdated library ```, so this may cause you to have to find another way out.
+
+</td></tr></table>
 
 <br><br>
 
