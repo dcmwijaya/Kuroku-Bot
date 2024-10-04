@@ -1,7 +1,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
-![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Bot-Telegram-JS-Sederhana)
-![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=flat&logo=javascript&logoColor=%23F7DF1E)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/Bot-Telegram-JS-Sederhana?logo=Codeforces&logoColor=white&color=%23F7DF1E)
+![Project](https://img.shields.io/badge/Project-Multi-%2DPlatform-light.svg?style=flat&logo=googlechrome&logoColor=white&color=%23F7DF1E)
+![Type](https://img.shields.io/badge/Type-Campus%20Assignment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # Kuroku-Bot
 <strong>UPN Veteran Jatim Website Programming Assignment</strong><br><br>
@@ -92,22 +93,22 @@ This Telegram-based ChatBot is built on the ``` Google App Scripts ``` platform 
 <th colspan="4">Telegram Bot Interaction View</th>
 </tr>
 <tr>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/390824ae-f849-4763-ba49-44cbcaec1cea" alt="bot-1"></td>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/17f73005-3e6a-48ed-a9ea-fc2e858be847" alt="bot-2"></td>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/e9f0f167-5da1-40a5-8c92-5781de70d8af" alt="bot-3"></td>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/150734e6-353c-4672-b646-0b50bfd82341" alt="bot-4"></td>
+<td width="210"><img src="Documentation/Telegram Bot View-1.jpg" alt="telegram-bot-1"></td>
+<td width="210"><img src="Documentation/Telegram Bot View-2.jpg" alt="telegram-bot-2"></td>
+<td width="210"><img src="Documentation/Telegram Bot View-3.jpg" alt="telegram-bot-3"></td>
+<td width="210"><img src="Documentation/Telegram Bot View-4.jpg" alt="telegram-bot-4"></td>
 </tr>
 <tr>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/97747aac-4ecd-4f30-a011-997503441d2b" alt="bot-5"></td>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/c1cd6313-c7ce-43d6-aa73-d65933b04590" alt="bot-6"></td>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/e13e90a6-e8e2-43b4-9181-61f7adff7248" alt="bot-7"></td>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/9ba07dfc-96d9-4885-974d-92545c6532c7" alt="bot-8"></td>
+<td width="210"><img src="Documentation/Telegram Bot View-5.jpg" alt="telegram-bot-5"></td>
+<td width="210"><img src="Documentation/Telegram Bot View-6.jpg" alt="telegram-bot-6"></td>
+<td width="210"><img src="Documentation/Telegram Bot View-7.jpg" alt="telegram-bot-7"></td>
+<td width="210"><img src="Documentation/Telegram Bot View-8.jpg" alt="telegram-bot-8"></td>
 </tr>
 <tr>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/d75dd770-54da-49fa-adde-98f993d2dfa4" alt="bot-9"></td>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/e2c4c8fe-4700-4a21-8435-85d345c88518" alt="bot-10"></td>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/5b94ecf1-d5a4-425a-8076-34fbc848045c" alt="bot-11"></td>
-<td width="210"><img src="https://github.com/devancakra/Kuroku-Bot/assets/54527592/dc8931f5-6e5a-4086-bb43-9e67a465daa7" alt="bot-12"></td>
+<td width="210"><img src="Documentation/Telegram Bot View-9.jpg" alt="telegram-bot-9"></td>
+<td width="210"><img src="Documentation/Telegram Bot View-10.jpg" alt="telegram-bot-10"></td>
+<td width="210"><img src="Documentation/Telegram Bot View-11.jpg" alt="telegram-bot-11"></td>
+<td width="210"><img src="Documentation/Telegram Bot View-12.jpg" alt="telegram-bot-12"></td>
 </tr>
 </table>
 
@@ -137,12 +138,12 @@ If this work is useful to you, then support this work as a form of appreciation 
 <br><br>
 
 ## Disclaimer
-This application has been created by including third-party sources. Third parties here are service providers, whose services are in the form of libraries, frameworks, and others. I thank you very much for the service. It has proven to be very helpful and implementable.
+This application is my own work and is not the result of plagiarism from other people's research or work, except those related to third party services which include: libraries, frameworks, and so on.
 
 <br><br>
 
 ## LICENSE
-MIT License - Copyright © 2023 - Devan Cakra Mudra Wijaya
+MIT License - Copyright © 2021 - Devan C. M. Wijaya
 
 Permission is hereby granted without charge to any person obtaining a copy of this software and the software-related documentation files to deal in them without restriction, including without limitation the right to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons receiving the Software to be furnished therewith on the following terms:
 
