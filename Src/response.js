@@ -154,7 +154,7 @@ bot.action('me_pakan', (ctx, next) => {
   let msg = '------------------------------------------------------------\n🍗 Pakan: 🐟 Ikan (Pisces)\n------------------------------------------------------------\n\nPakan ikan terbagi menjadi 2 macam, yaitu alami dan buatan. Pakan alami merupakan pakan yang telah tersedia di alam. Contoh pakan alami, yaitu cacing; ikan hidup; invertebrata akuatik, seperti daphnia atau artemia; larva serangga seperti bloodworm, jentik nyamuk, infusoria, rotifera, dan lain-lain. Pakan buatan merupakan pakan yang dibuat dengan formulasi tertentu, baik nabati maupun hewani berdasarkan pertimbangan pembuatnya. Pakan buatan biasanya dibuat di pabrik dan dijual secara komersial atau bisa juga membuatnya sendiri. Contoh pakan buatan, yaitu pelet ikan. Dalam hal pemberian pakan hewan, jenis pakan dan hewan apa yang anda pelihara itu tidak boleh sembarangan dan harus mengutamakan kecocokan agar nafsu makan hewan dapat bertambah.';
 
   // Foto Pakan
-  let url_foto = 'https://github.com/dcmwijaya/Kuroku-Bot/blob/master/Assets/IMG1.jpg';
+  let url_foto = 'https://github.com/cakraawijaya/Kuroku-Bot/blob/master/Assets/IMG1.jpg';
 
   // Output yang dikirim oleh bot
   ctx.replyWithPhoto(url_foto, {'caption': msg,'parse_mode': 'HTML'});
@@ -170,7 +170,7 @@ bot.action('me_pakan', (ctx, next) => {
   let msg = '------------------------------------------------------------\n🍗 Pakan: 🕊️ Burung (Aves)\n------------------------------------------------------------\n\nPakan burung terbagi menjadi 2 macam, yaitu alami dan buatan. Pakan alami merupakan pakan yang telah tersedia di alam. Contoh pakan alami, yaitu biji-bijian, kroto (larva semut), jangkrik, ulat, dan lain-lain. Pakan buatan merupakan pakan yang dibuat dengan formulasi tertentu, baik nabati maupun hewani berdasarkan pertimbangan pembuatnya. Pakan buatan biasanya dibuat di pabrik dan dijual secara komersial atau bisa juga membuatnya sendiri. Contoh pakan buatan, yaitu pelet burung. Dalam hal pemberian pakan hewan, jenis pakan dan hewan apa yang anda pelihara itu tidak boleh sembarangan dan harus mengutamakan kecocokan agar nafsu makan hewan dapat bertambah.';
 
   // Foto Pakan
-  let url_foto = 'https://github.com/dcmwijaya/Kuroku-Bot/blob/master/Assets/IMG2.jpg';
+  let url_foto = 'https://github.com/cakraawijaya/Kuroku-Bot/blob/master/Assets/IMG2.jpg';
 
   // Output yang dikirim oleh bot
   ctx.replyWithPhoto(url_foto, {'caption': msg,'parse_mode': 'HTML'});
@@ -186,7 +186,7 @@ bot.action('me_pakan', (ctx, next) => {
   let msg = '------------------------------------------------------------\n🍗 Pakan: 🐇 Mamalia\n------------------------------------------------------------\n\nPakan mamalia terbagi menjadi 2 macam, yaitu alami dan buatan. Pakan alami merupakan pakan yang telah tersedia di alam. Contoh pakan alami, yaitu rerumputan, buah-buahan, dedaunan, biji-bijian, umbi-umbian, daging-dagingan, dan lain-lain. Pakan buatan merupakan pakan yang dibuat dengan formulasi tertentu, baik nabati maupun hewani berdasarkan pertimbangan pembuatnya. Pakan buatan biasanya dibuat di pabrik dan dijual secara komersial atau bisa juga membuatnya sendiri. Contoh pakan buatan, yaitu pelet kelinci, pelet anjing, pelet kucing, dan lain-lain. Dalam hal pemberian pakan hewan, jenis pakan dan hewan apa yang anda pelihara itu tidak boleh sembarangan dan harus mengutamakan kecocokan agar nafsu makan hewan dapat bertambah.';
 
   // Foto Pakan
-  let url_foto = 'https://github.com/dcmwijaya/Kuroku-Bot/blob/master/Assets/IMG3.jpg';
+  let url_foto = 'https://github.com/cakraawijaya/Kuroku-Bot/blob/master/Assets/IMG3.jpg';
 
   // Output yang dikirim oleh bot
   ctx.replyWithPhoto(url_foto, {'caption': msg,'parse_mode': 'HTML'});
@@ -202,7 +202,7 @@ bot.action('me_pakan', (ctx, next) => {
   let msg = '------------------------------------------------------------\n🍗 Pakan: 🐊 Reptil\n------------------------------------------------------------\n\nPakan reptil terbagi menjadi 2 macam, yaitu alami dan buatan. Pakan alami merupakan pakan yang telah tersedia di alam. Contoh pakan alami, yaitu tikus, serangga, siput, cacing, dedaunan, buah-buahan, biji-bijian, dan lain-lain. Pakan buatan merupakan pakan yang dibuat dengan formulasi tertentu, baik nabati maupun hewani berdasarkan pertimbangan pembuatnya. Pakan buatan biasanya dibuat di pabrik dan dijual secara komersial atau bisa juga membuatnya sendiri. Contoh pakan buatan, yaitu pelet kura-kura, pelet kadal, dan lain-lain. Dalam hal pemberian pakan hewan, jenis pakan dan hewan apa yang anda pelihara itu tidak boleh sembarangan dan harus mengutamakan kecocokan agar nafsu makan hewan dapat bertambah.';
 
   // Foto Pakan
-  let url_foto = 'https://github.com/dcmwijaya/Kuroku-Bot/blob/master/Assets/IMG4.jpg';
+  let url_foto = 'https://github.com/cakraawijaya/Kuroku-Bot/blob/master/Assets/IMG4.jpg';
 
   // Output yang dikirim oleh bot
   ctx.replyWithPhoto(url_foto, {'caption': msg,'parse_mode': 'HTML'});
@@ -226,7 +226,7 @@ bot.action('me_pakan', (ctx, next) => {
   let msg = '------------------------------------------------------------\n🍗 Pakan: 🐸 Amfibi\n------------------------------------------------------------\n\nPakan amfibi terbagi menjadi 2 macam, yaitu alami dan buatan. Pakan alami merupakan pakan yang telah tersedia di alam. Contoh pakan alami, yaitu cacing, ikan, belatung, ulat, lalat, jangkrik, kumbang, belalang, laba-laba, siput, dan lain-lain. Pakan buatan merupakan pakan yang dibuat dengan formulasi tertentu, baik nabati maupun hewani berdasarkan pertimbangan pembuatnya. Pakan buatan biasanya dibuat di pabrik dan dijual secara komersial atau bisa juga membuatnya sendiri. Contoh pakan buatan, yaitu pelet salamander, pelet katak, dan lain-lain. Dalam hal pemberian pakan hewan, jenis pakan dan hewan apa yang anda pelihara itu tidak boleh sembarangan dan harus mengutamakan kecocokan agar nafsu makan hewan dapat bertambah.';
 
   // Foto Pakan
-  let url_foto = 'https://github.com/dcmwijaya/Kuroku-Bot/blob/master/Assets/IMG5.jpg';
+  let url_foto = 'https://github.com/cakraawijaya/Kuroku-Bot/blob/master/Assets/IMG5.jpg';
 
   // Custom keyboard
   custom_Keyboard = [
@@ -244,7 +244,7 @@ bot.action('me_habitat', (ctx, next) => {
   let msg = '------------------------------------------------------------\n🌱 Habitat: 🐟 Ikan (Pisces)\n------------------------------------------------------------\n\nIkan dapat ditemukan hampir di semua perairan yang berukuran besar baik air tawar, air payau, maupun air asin (laut). Pada habitat aslinya, ikan dapat hidup bervariasi, mulai dari yang dekat permukaan hingga beberapa ribu meter di bawah permukaan.\n\n▶️ Sumber: <a href="https://www.youtube.com/@TankTested">@TankTested</a>\n------------------------------------------------------------\nInformasi lebih lanjut dapat anda akses pada bagian ini: <strong><a href="https://www.youtube.com/watch?v=ICRQfGjdS6o">Klik Disini</a></strong>';
 
   // Foto habitat ikan
-  let url_foto = 'https://github.com/dcmwijaya/Kuroku-Bot/blob/master/Assets/IMG6.jpg';
+  let url_foto = 'https://github.com/cakraawijaya/Kuroku-Bot/blob/master/Assets/IMG6.jpg';
 
   // Output yang dikirim oleh bot
   ctx.replyWithPhoto(url_foto, {'caption': msg, 'parse_mode': 'HTML'});
@@ -260,7 +260,7 @@ bot.action('me_habitat', (ctx, next) => {
   let msg = '------------------------------------------------------------\n🌱 Habitat: 🕊️ Burung (Aves)\n------------------------------------------------------------\n\nHabitat burung terbentang mulai dari tepi pantai hingga ke puncak gunung. Burung yang memiliki habitat khusus di tepi pantai tidak dapat hidup di pegunungan dan sebaliknya. Namun ada pula spesies burung-burung umum yang dapat dijumpai di beberapa habitat.\n\n▶️ Sumber: <a href="https://www.youtube.com/@cornell_lab">@cornell_lab</a>\n------------------------------------------------------------\nInformasi lebih lanjut dapat anda akses pada bagian ini: <strong><a href="https://www.youtube.com/watch?v=UmPXtsJeu5M&t=134s">Klik Disini</a></strong>';
 
   // Foto habitat burung
-  let url_foto = 'https://github.com/dcmwijaya/Kuroku-Bot/blob/master/Assets/IMG7.jpg';
+  let url_foto = 'https://github.com/cakraawijaya/Kuroku-Bot/blob/master/Assets/IMG7.jpg';
 
   // Output yang dikirim oleh bot
   ctx.replyWithPhoto(url_foto, {'caption': msg, 'parse_mode': 'HTML'});
@@ -276,7 +276,7 @@ bot.action('me_habitat', (ctx, next) => {
   let msg = '------------------------------------------------------------\n🌱 Habitat: 🐇 Mamalia\n------------------------------------------------------------\n\nMamalia hidup pada habitat yang berbeda dan tersebar luas baik di gurun, Arktik, lautan, hutan, gunung, tundra, padang rumput, dan sabana. Mamalia pun lazim dibandingkan dengan reptil dan amfibi karena habitatnya tersebut.\n\n▶️ Sumber: <a href="https://www.youtube.com/@SLNacademy">@SLNacademy</a>\n------------------------------------------------------------\nInformasi lebih lanjut dapat anda akses pada bagian ini: <strong><a href="https://www.youtube.com/watch?v=9cfRj1TcscI">Klik Disini</a></strong>';
 
   // Foto habitat mamalia
-  let url_foto = 'https://github.com/dcmwijaya/Kuroku-Bot/blob/master/Assets/IMG8.jpg';
+  let url_foto = 'https://github.com/cakraawijaya/Kuroku-Bot/blob/master/Assets/IMG8.jpg';
 
   // Output yang dikirim oleh bot
   ctx.replyWithPhoto(url_foto, {'caption': msg, 'parse_mode': 'HTML'});
@@ -292,7 +292,7 @@ bot.action('me_habitat', (ctx, next) => {
   let msg = '------------------------------------------------------------\n🌱 Habitat: 🐊 Reptil\n------------------------------------------------------------\n\nKeberadaan reptil bisa ditemukan hampir di seluruh bagian dunia, kecuali benua Antartika. Reptil hidup di daratan, daerah perairan, atau bisa juga keduanya. Karena itu, persebaran reptil bisa ditemukan di berbagai tempat yang umum dikunjungi ataupun tidak bisa dikunjung manusia.\n\n▶️ Sumber: <a href="https://www.youtube.com/@ARCTrust">@ARCTrust</a>\n------------------------------------------------------------\nInformasi lebih lanjut dapat anda akses pada bagian ini: <strong><a href="https://www.youtube.com/watch?v=iX93jNAFKtM">Klik Disini</a></strong>';
 
   // Foto habitat reptil
-  let url_foto = 'https://github.com/dcmwijaya/Kuroku-Bot/blob/master/Assets/IMG9.jpg';
+  let url_foto = 'https://github.com/cakraawijaya/Kuroku-Bot/blob/master/Assets/IMG9.jpg';
 
   // Output yang dikirim oleh bot
   ctx.replyWithPhoto(url_foto, {'caption': msg, 'parse_mode': 'HTML'});
@@ -321,7 +321,7 @@ bot.action('me_habitat', ctx => {
   ];
 
   // Foto habitat amfibi
-  let url_foto = 'https://github.com/dcmwijaya/Kuroku-Bot/blob/master/Assets/IMG10.jpg';
+  let url_foto = 'https://github.com/cakraawijaya/Kuroku-Bot/blob/master/Assets/IMG10.jpg';
 
   // Output yang dikirim oleh bot
   ctx.replyWithPhoto(url_foto, {'caption': msg, 'parse_mode': 'HTML'}) & ctx.tg.sendMessage(admin_bot, pvmsg,{ reply_markup: markup.keyboard(custom_Keyboard).resize() });
